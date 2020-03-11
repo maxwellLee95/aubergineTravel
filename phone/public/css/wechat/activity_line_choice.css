@@ -1,0 +1,190 @@
+body{
+    background-color: #f0f0f0;
+}
+.main-title{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.title-left-border,.title-right-border{
+    width: 10%;
+    border-top: 1px solid #888;
+    margin-top: 16px;
+}
+.title-left-border{
+    margin-left: 23%;
+}
+.title-right-border{
+    margin-right: 23%;
+}
+.build-activitys-title{
+    width: 34%;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    margin-top: 3px;
+}
+.img-circle{
+    border-radius: 50%;
+}
+.choice-time{
+    background-color: #fff;
+}
+.choice-time-input{
+    border-top: 1px solid #e9e8e8;
+    border-bottom: 1px solid #e9e8e8;
+    padding: 0 10px;
+}
+.choice-time-input .pull-left{
+    font-size: 16px;
+    padding: 10px 0;
+    width: 43%;
+}
+.choice-time-input .pull-right{
+    width: 57%;
+    position: relative;
+}
+#startDate{
+    width: 100%;
+    height: 46px;
+    text-align: right;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #8b8b8b;
+    position: absolute;
+    z-index: 101;
+    opacity: 0;
+}
+.choice-time-info{
+    padding-left: 20px;
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #e9e8e8;
+}
+#showStartDate{
+    text-align: right;
+    height: 46px;
+    line-height: 46px;
+    color: #8b8b8b;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+.choice-leader-title{
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.choice-leader-title span{
+    font-size: 12px;
+    color: #8b8b8b;
+}
+.weui_cell:first-of-type::before{
+    border-top: 0;
+}
+.leader-img{
+    width: 46px;
+    height: 46px;
+}
+.leader-img img{
+    width: 46px;
+    height: 46px;
+}
+.leader-info{
+    padding-left: 10px;
+}
+.leader-score{
+    color: #808080;
+    font-size: 14px;
+    padding-top: 6px;
+}
+.bottom-btn-div{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.bottom-btn{
+    display: inline-block;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    border-top: 2px solid #f0f0f0;
+    background: #9B8CE5;
+    border-radius: 30px;
+}
+.choice-time-result{
+    display: none;
+}
+
+.loading{
+    position: fixed;
+}
+.text-center{
+    text-align: center;
+}
+
+label{
+    font-weight: normal;
+}
+
+/*modal修改为内容滚动*/
+.modal-open .modal{
+    overflow: inherit;
+}
+.modal-body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.modal-dialog{
+    margin: 20px;
+}
+.modal-body table,.modal-body p,.modal-body img,.modal-body section,.modal-body section img{
+    max-width: 100%;
+}
+
+.no-time-leader-notice{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+}
+.no-time-leader-notice-main{
+    margin-top: -10px;
+}
+.no-time-leader-notice-main span{
+    background-color: #fff;
+    padding: 0 5px;
+    color: #8b8b8b;
+}
+.no-time-leader-notice + .weui_cell::before{
+    border-top: 0;
+}
+.dotted-line{
+    border-top: 1px dotted #ddd;
+}
+.gray{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.fc-toolbar{
+    height: 42px;
+    line-height: 42px;
+}
+.fc .fc-button-group > *{
+    top: 10px;
+}

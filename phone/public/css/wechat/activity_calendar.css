@@ -1,0 +1,372 @@
+/*重置日历样式*/
+.activity-calendar h2 {
+    /*padding-top: 18px;*/
+    line-height: 50px;
+}
+.fc-toolbar{
+    background: #ffffff;
+    margin-bottom: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+.fc-toolbar .fc-center{
+    color: #000000;
+}
+.fc-widget-header{
+    font-weight: inherit;
+}
+.fc-widget-header:first-of-type{
+    background: #ffffff;
+    height: 30px;
+    line-height: 30px;
+    color: #fa2c3a;
+    font-size: 12px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.fc-widget-content,.fc-day-grid-container thead{
+    background: #ffffff;
+    font-size: 12px;
+}
+.fc-day-number{
+    /*padding-top: 10px;*/
+}
+.fc-button-group, .fc button{
+    display: inherit;
+}
+.fc button{
+    height: 22px;
+    line-height: 22px;
+    color: #9B8CE5;
+    /* font-size: 12px; */
+    /* margin-right: 20px; */
+    background: #ffffff;
+    border: 0;
+}
+/*.fc button:last-of-type{
+	margin-right: 0;
+}*/
+
+.fc tbody .fc-row .fc-content-skeleton {
+    height: 38px;
+}
+.fc-left a{
+    height: 20px;
+    line-height: 20px;
+}
+.fc-left,.fc-right{
+    padding-top: 15px;
+    margin: 0 10px;
+}
+.fc-center{
+    vertical-align: middle;
+}
+.fc-icon-left-single-arrow::after{
+    content: "<";
+}
+.fc-icon-right-single-arrow::after{
+    content: ">";
+}
+.fc-content-skeleton tbody{
+    border-bottom: 1px solid #e1e1e1;
+}
+.fc-view-container{
+    position: relative;
+}
+.fc-view-container td,.fc-view-container th{
+    border: 0;
+    vertical-align: middle;
+}
+.fc-ltr .fc-basic-view .fc-day-number{
+    text-align: center;
+}
+.fc-today{
+    color: #9b8ce5;
+}
+.fc-event{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #F3F3F3;
+}
+.haveActivityPoint{
+    background: #fe6553;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 4px;
+}
+.fc-content-skeleton thead{
+    height: 39px;
+    line-height: 39px;
+}
+.active{
+    background: #9B8CE5;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    padding-right: 1px;
+    line-height: 30px;
+}
+.date_a{
+    height: 13px;
+    line-height: 13px;
+    font-size: 10px;
+}
+.date_dot{
+    /*font-size: 14px;*/
+    background: #fe6553;
+    height: 6px;
+    /*line-height: 13px;*/
+    width: 6px;
+    border-radius: 3px;
+    margin-right: 1px;
+    display: inline-block;
+    /*vertical-align: middle;*/
+}
+.date_n{
+    font-size: 10px;
+    /*vertical-align: middle;*/
+}
+
+/*.calendar-month{
+	font-size: 22px;
+	line-height: 24px;
+	height: 24px;
+	padding-right: 2px;
+}
+.switch span{
+	text-align: center;
+	display: inline-block;
+	padding-top: 3px;
+}
+.calendar-date{
+	padding-top: 13px;
+}
+.calendar-date div{
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+}*/
+
+/*重置日历样式结束*/
+
+
+
+
+/*body{
+	font-family: 'Droid Sans Fallback';
+}*/
+/*重置日历样式*/
+/*.datetimepicker{
+	width: 100%;
+	padding: 0;
+}
+.datetimepicker{
+	margin: 0;
+}
+.table-condensed{
+	width: 100%;
+}
+.table-condensed thead tr:first-of-type{
+	background: #9B8CE5;
+	color: #fff;
+	height: 50px;
+}
+.table-condensed thead tr:last-of-type{
+	background: #efeded;
+	color: #8b8b8b;
+	border-bottom: 1px solid #e1e1e1;
+	font-size: 12px;
+	height: 30px;
+}
+.datetimepicker-days th,.datetimepicker-days td{
+	text-align: center;
+}
+.prev{
+	background: url("/images/wechat/calendar_prev.png") no-repeat;
+	background-position: center;
+	background-size: 22px 22px;
+}
+.next{
+	background: url("/images/wechat/calendar_next.png") no-repeat;
+	background-position: center;
+	background-size: 22px 22px;
+}
+.calendar-month{
+	font-size: 22px;
+	line-height: 24px;
+	height: 24px;
+	padding-right: 2px;
+}
+.switch span{
+	text-align: center;
+	display: inline-block;
+	padding-top: 3px;
+}
+.calendar-date div{
+	font-size: 12px;
+	line-height: 12px;
+	height: 12px;
+}
+.day{
+	font-size: 12px;
+	color: #272727;
+}
+.old,.new{
+	color: #8b8b8b;
+}
+.today{
+	color: #9B8CE5;
+}
+.table-condensed tbody tr{
+	height: 40px;
+	border-bottom: 1px solid #e9e8e8;
+}*/
+/*.table-condensed tbody tr:last-of-type{
+	border:0;
+}*/
+/*.active span{
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+}
+.active span span{
+	z-index: 1;
+}
+.active span div{
+	position: absolute;
+	background: #fe6553;
+	display: inline-block;
+	border-radius: 10px;
+	line-height: 20px;
+	height: 20px;
+	width: 20px;
+}
+.datetimepicker-days .active span .haveActivityPoint{
+	background: #fe6553;
+	height: 6px;
+	width: 6px;
+	position: absolute;
+	bottom: -10px;
+	left: 30%;
+	border-radius: 3px;
+}
+.haveActivityPoint{
+	background: #fe6553;
+	height: 6px;
+	width: 6px;
+	position: absolute;
+	bottom: 4px;
+	left: 44%;
+	border-radius: 3px;
+}
+.table-condensed{
+	position: relative;
+	overflow: hidden;
+	height: 320px;
+}*/
+.activity-ul{
+    background: #fff;
+    margin-bottom: 55px;
+    margin-top: 13px;
+}
+.activity-ul ul li{
+    border-bottom: 1px solid #D8D8D8;
+}
+.activity-ul ul li a{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 25px 6px 10px;
+    position: relative;
+}
+.activity-name{
+    font-size: 14px;
+    position: relative;
+}
+.activity-leader{
+    font-size: 12px;
+    color: #8B8B8B;
+    padding-top: 2px;
+}
+.activity-leader .pull-left{
+    padding-left: 7px;
+}
+/*活动状态样式*/
+.activity-status{
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+}
+.activity-status span{
+    font-size: 11px;
+    color: #fff;
+    /*background: #6ed59e;*/
+    padding: 0 4px;
+    margin-top: 6px;
+    display: inline-block;
+}
+.activity-status span{
+    margin-top: 28px;
+}
+.activity-status .triangle2{
+    top: 75%;
+}
+.triangle2{
+    /*background: #6ed59e;*/
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: -2px;
+    top: 40%;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); 	/* IE 9 */
+    -moz-transform:rotate(45deg); 	/* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg);
+}
+/*活动状态样式结束*/
+
+.right-btn{
+    position: absolute;
+    right: 6px;
+    top: 40%;
+}
+.right-btn img{
+    width: 8px;
+}
+
+.leader-activity-dynamic .se,.swiper-activity-status .se { background-color: rgba(138, 138, 138, 0.9); }
+.leader-activity-dynamic .su,.swiper-activity-status .su{ background-color: rgba(138, 138, 138, 0.9); }
+.leader-activity-dynamic .sf,.swiper-activity-status .sf{ background-color: rgba(252, 146, 22, 0.9); }
+.leader-activity-dynamic .ss,.swiper-activity-status .ss{ background-color: rgba(72, 203, 132, 0.9); }
+.leader-activity-dynamic .si,.swiper-activity-status .si{ background-color: rgba(193, 76, 251, 0.9); }
+
+.se { background-color: rgba(138, 138, 138, 0.9); }
+.su{ background-color: rgba(138, 138, 138, 0.9); }
+.sf{ background-color: rgba(252, 146, 22, 0.9); }
+.ss{ background-color: rgba(72, 203, 132, 0.9); }
+.si{ background-color: rgba(193, 76, 251, 0.9); }
+.fp{ background-color: rgba(249, 131, 131, 0.9); }
+
+/*设置全部A链接的样式*/
+a{
+    color: #000;
+}
+a:hover{
+    color: #000;
+}
+
+.mr20 {
+    padding: 10px 0px;
+}
+
+#show-error{
+    color: #ff5000;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+}

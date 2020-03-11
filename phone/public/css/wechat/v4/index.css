@@ -1,0 +1,1455 @@
+.status{
+    font-size: 10px;
+    color: #fff;
+    padding: 0 3px;
+    height: 15px;
+    line-height: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    position: relative;
+}
+.left-triangle{
+    position: absolute;
+    left: -2px;
+    top: 5px;
+    width: 3px;
+    height: 3px;
+    transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+}
+
+.status.se{ border: 1px solid #8A8A8A; }
+.status.su{ border: 1px solid #8A8A8A; }
+/*.status.sf{ border: 1px solid #48CB84; }*/
+/*.status.ss{ border: 1px solid #48CB84; }*/
+.status.si{ border: 1px solid #C14CFB; }
+.left-triangle.se{ border-left: 1px solid #8A8A8A; border-top: 1px solid #8A8A8A; }
+.left-triangle.su{ border-left: 1px solid #8A8A8A; border-top: 1px solid #8A8A8A; }
+.left-triangle.sf{ border-left: 1px solid #FC9216; border-top: 1px solid #FC9216; }
+.left-triangle.ss{ border-left: 1px solid #48CB84; border-top: 1px solid #48CB84; }
+.left-triangle.si{ border-left: 1px solid #C14CFB; border-top: 1px solid #C14CFB; }
+.clear{
+    clear: both;
+}
+.flex-div{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -moz-box-lines: multiple; /*Firefox*/
+    -webkit-box-lines: multiple; /*Safari,Opera,Chrome*/
+    box-lines: multiple;
+    -moz-flex-wrap: wrap; /*Firefox*/
+    -webkit-flex-wrap: wrap; /*Safari,Opera,Chrome*/
+    flex-wrap: wrap;
+    width: 100%;
+}
+.div-top{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -moz-align-items: flex-start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+.div-center{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.div-start{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.div-end{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.top-tab{
+    width: 33.33%;
+    font-size: 14px;
+    position: relative;
+}
+.top-tab-left{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 10px;
+    border-left: 1px solid #c0c0c0;
+}
+.top-tab.active span{
+    color: #9B8CE5;
+    border-bottom: 1px solid #9B8CE5;
+}
+.modal16{
+    padding: 0 5px;
+    position: relative;
+}
+.modal16 img{
+    width: 100%;
+}
+.modal16 > div{
+    padding: 10px 5px 0 5px;
+}
+.show-upload-img{
+    width: 100%;
+    height: 163px;
+    background-color: #F7F7F7;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 70px;
+    color: #fff;
+}
+.index-modal{
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.edit-modal{
+    position: absolute;
+    right: -62px;
+    top: 0;
+    z-index: 100;
+    width: 66px;
+    text-align: center;
+}
+.edit-modal-btn{
+    background-color: #3c8dbc;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+.edit-modal-btn.this{
+    background-color: #3EC77D;
+}
+.edit-modal-btn.down{
+    background-color: #d9534f;
+}
+.no-style-input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+.swiper-container{
+    width: 100%;
+    padding: 10px 0;
+    padding-bottom: 30px;
+}
+.swiper-one{
+    width: 50%;
+    padding: 0 5px 10px 5px;
+    position: relative;
+}
+.choice-tag-btn, .choice-rand-type-btn{
+    background-color: #F4F4F4;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+.swiper-pagination-bullet-active{
+    background-color: #9B8CE5;
+}
+.index-modal-title{
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.index-modal-title > div{
+    width: 100%;
+}
+.index-modal-title input{
+    width: 100%;
+    text-align: center;
+}
+.index-modal-title div:first-of-type{
+    font-size: 16px;
+    font-weight: bold;
+}
+.index-modal-title div:last-of-type, .modal18_sub_title{
+    font-size: 12px;
+}
+.index-modal-title.black{
+    color: #000;
+}
+.index-modal-title.black div:last-of-type{
+    color: #888;
+}
+.index-modal-title.orange{
+    color: #fe9a51;
+}
+.index-modal-title.orange div:last-of-type{
+    color: #fe9a51;
+}
+.index-modal-title.green{
+    color: #63d496;
+}
+.index-modal-title.green div:last-of-type{
+    color: #63d496;
+}
+.modal21-line-info{
+    padding: 0 10px;
+    display: inline-block;
+}
+.modal18-line-info{
+    padding: 0 10px;
+    position: relative;
+}
+.modal18-top{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 100;
+    color: #fff;
+    width: 44px;
+    height: 16px;
+    background-image: url('/public/images/wechat/v4/top2.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.modal18-choice-line-btn, .modal19-choice-line-btn, .modal21-choice-line-btn{
+    background-color: #F4F4F4;
+    padding: 5px 10px;
+    width: 100%;
+    /*min-height: 100px;*/
+}
+.line-score{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+.line-score span{
+    display: inline-block;
+    padding: 0 5px;
+    background-color: rgba(250,107,107,0.8);
+    font-size: 11px;
+}
+.line-score span.new{
+    background-color: rgba(255,171,11,0.8);
+}
+.line-name{
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    height: 18px;
+    overflow: hidden;
+}
+.line-name.text-left{
+    text-align: left;
+    height: 20px;
+    overflow: hidden;
+}
+.line-desc{
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+}
+.modal15-line-img, .modal18-line-img, .modal19-line-img, .modal21-line-img{
+    width: 100%;
+    display: none;
+    min-height: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius:10px;
+}
+ .look-line-img{
+     width: 100%;
+     display: none;
+     min-height: 60px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-color: white;
+     border-top-left-radius: 10px 10px;
+     border-bottom-left-radius: 10px 10px
+}
+.look-item-right{
+    width: 67%;
+    padding: 10px 10px 10px 5px;
+    font-size: 12px;
+}
+.index-modal-content{
+    position: relative;
+    width: 100%;
+}
+.highlights-list{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 5px;
+}
+.highlights{
+    font-size: 10px;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    padding: 0 2px;
+    border-radius: 3px;
+    /*margin-left: 5px;*/
+    margin-right: 5px;
+}
+.modal21-line-score{
+    color: #999;
+    padding-left: 8px;
+}
+.modal21-line-score span{
+    font-size: 12px;
+}
+.modal21-line-score img{
+    margin-bottom: 4px;
+}
+.swiper-modal{
+    width: 100%;
+    position: relative;
+}
+.swiper-bottom-line{
+    margin: 0 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+.swiper-modal:last-of-type .swiper-bottom-line{
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+.swiper-pagination{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-modal-pagination .swiper-pagination-bullet-active, .tab-swiper-pagination .swiper-pagination-bullet-active{
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    font-size: 8px;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.banner-swiper-pagination .swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+.swiper-edit{
+    position: absolute;
+    right: -62px;
+    top: 0;
+}
+.line-info{
+    font-size: 12px;
+    color: #888;
+}
+.line-info .pull-left {
+    line-height: 12px;
+    overflow: hidden;
+}
+
+.modal15-line-days {
+    position: absolute;
+    background-color: rgba(250, 107, 107, 0.8);
+    color: #fff;
+    font-size: 12px;
+    padding: 0 15px;
+    border-bottom-right-radius: 5px;
+}
+
+.tab-swipers{
+    position: relative;
+    overflow: hidden;
+}
+.tab-swiper-main.not-show{
+    position: absolute;
+    width: 100%;
+    z-index: -1000;
+}
+.navs{
+    background-color: #fff;
+    padding: 5px 0;
+}
+.nav-btn{
+    width: 20%;
+    padding: 5px 0;
+}
+.button-img{
+    width: 60%;
+    min-height: 30px;
+}
+.nav-name{
+    font-size: 12px;
+}
+.banners{
+    overflow: hidden;
+}
+.top-module{
+    padding-bottom: 10px;
+    background: #ffffff;
+}
+.search{
+    background-color: #1C1B20;
+    padding: 10px 0;
+}
+.city-show{
+    font-size: 14px;
+    color: #fff;
+}
+.city-select{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.city-select select{
+    width: 100%;
+}
+.search-text{
+    border-radius: 13px;
+}
+.search-placeholder{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.search-placeholder span{
+    color: #888;
+}
+#search_text{
+    text-align: center;
+}
+.news{
+    background-color: #fff;
+    padding: 10px 0;
+}
+#news{
+    height: 20px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.scrollText ul li{
+    height: 20px;
+    overflow: hidden;
+}
+.scrollText ul li a{
+    color: #8b8b8b;
+}
+.scrollText ul li a span{
+    font-size: 12px;
+}
+.news-tag{
+    border: 1px solid #FB6A6D;
+    border-radius: 3px;
+    font-size: 11px;
+    color: #FB6A6D;
+}
+.modal18_sub_title{
+    color: #888;
+}
+.modal18_sub_title span{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    /*background-color: #fe9a51;*/
+    background-color: #888;
+    display: inline-block;
+    margin: 0 5px;
+}
+.info-grey{
+    font-size: 12px;
+    color: #888;
+}
+.page-loading, .is-last{
+    font-size: 12px;
+    color: #888;
+    padding-bottom: 10px;
+}
+.inner{
+    min-height: 120px;
+}
+.lazy-img-loading{
+    background-color: #ddd;
+    min-height: 48px;
+}
+.swiper-pagination-bullet{
+    width: 6px;
+    height: 6px;
+}
+.top-tab-dot{
+    position: absolute;
+    right: 20%;
+    top: 0;
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    border-radius: 50%;
+}
+.hot-tab{
+    font-size: 10px;
+    color: #FA6B6B;
+    border: 1px solid #FA6B6B;
+    border-radius: 3px;
+}
+.top-tab.active .hot-tab{
+    color: #FA6B6B;
+    border-bottom: 1px solid #FA6B6B;
+}
+.line-btn{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #9B8CE5;
+    color: #fff;
+    border-radius: 4px;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+.back-top{
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    z-index: 1000;
+    display: none;
+}
+.modal22-swiper{
+    padding: 0;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.modal22-swiper-content{
+    margin: 10px;
+    margin-bottom: 0;
+    border-radius: 2px;
+    width: 100%;
+}
+.modal22-line-img{
+    min-height: 120px;
+    background-color: #ddd;
+    position: relative;
+}
+.modal22-swiper-title{
+    background-color: #FA6B6B;
+    color: #fff;
+    padding: 0 5px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.modal22-swiper-name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 4px 10px;
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.3));
+}
+.original-price{
+    color: #888;
+}
+.original-price span{
+    text-decoration: line-through;
+}
+.activity-price{
+    padding-left: 10px;
+    color: #fa6b6b;
+    position: relative;
+}
+.actiivty-discount{
+    background-color: #fe9386;
+    font-size: 12px;
+    color: #fff;
+    padding: 0 2px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 2px;
+    margin-left: 5px;
+    display: inline-block;
+    position: absolute;
+    right: -50px;
+    top: -5px;
+}
+.actiivty-discount img{
+    position: absolute;
+    left: -4px;
+    bottom: 2px;
+}
+.modal22-img-list{
+    padding: 0 10px;
+    border-bottom: 1px solid #F3F3F3;
+}
+.modal22-img-list > div{
+    /*border-top: 1px solid #F3F3F3;*/
+}
+.modal22-img{
+    min-height: 40px;
+}
+.discount-time{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -moz-box-lines: multiple; /*Firefox*/
+    -webkit-box-lines: multiple; /*Safari,Opera,Chrome*/
+    box-lines: multiple;
+    -moz-flex-wrap: wrap; /*Firefox*/
+    -webkit-flex-wrap: wrap; /*Safari,Opera,Chrome*/
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -moz-justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.discount-date{
+    background-color: #666;
+    margin: 0 2px;
+    padding: 0 2px;
+    border-radius: 3px;
+}
+.modal21-line-name{
+    font-size: 14px;
+}
+.modal21-new{
+    font-size: 11px;
+    padding: 0 2px;
+}
+a:hover,a:active{
+    color: inherit;
+}
+
+.nav-modal{
+    padding: 5px 0;
+}
+.nav-name{
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+}
+.nav-red{
+    position: absolute;
+    right: 12%;
+    top: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: red;
+}
+.modal23-title{
+    width: 100%;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.modal23-title-name{
+    padding-left: 2px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: red;
+}
+.area-left-border, .area-right-border{
+    width: 8px;
+    height: 14px;
+    border-top: 2px solid #fe6553;
+    transform:rotate(-60deg);
+    -ms-transform:rotate(-60deg);
+    -moz-transform:rotate(-60deg);
+    -webkit-transform:rotate(-60deg);
+    -o-transform:rotate(-60deg);
+    display: inline-block;
+    margin-top: 4px;
+}
+.area-left-small-border, .area-right-small-border{
+    width: 8px;
+    height: 14px;
+    border-top: 2px solid #fe6553;
+    position: absolute;
+    left: -3px;
+    top: 1px;
+}
+.modal23-info{
+    -webkit-box-pack: justify;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.modal23-desc{
+    color: #63d496;
+    font-weight: bold;
+}
+.time-css{
+    background: #FA6B6B;
+    color: #fff;
+    width: 10px;
+    margin: 0 1px;
+    padding: 2px;
+    border-radius: 2px;
+}
+.tab-swipers-loading{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: none;
+}
+.tab-swipers-loading.active{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.look{
+    display: none;
+}
+
+.modal24-top{
+    margin: 0 10px;
+    background-image: url('/image/wx/v4/guizhou2.jpg');
+    background-position: bottom right;
+    background-size: 32% auto;
+    background-repeat: no-repeat;
+}
+.modal24-sub-title > div{
+    background-color: #9B8CE5;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+}
+.modal24-title{
+    font-size: 22px;
+    font-weight: bold;
+}
+.modal24-tag{
+    float: left;
+    padding-right: 10px;
+}
+.modal24-tag span{
+    font-size: 12px;
+}
+.modal24-tag > img{
+    background-color: #9B8CE5;
+    border-radius: 50%;
+    padding: 2px;
+    margin-top: -2px;
+}
+.modal24-swiper a{
+    width: 50%;
+}
+.modal24-line{
+    padding: 0 10px;
+}
+.modal24-line-img{
+    position: relative;
+}
+.modal24-line-tag{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    font-size: 12px;
+    color: #fff;
+    width: 55px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-image: url('/public/images/wechat/v4/top_f.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modal24-line-name{
+    text-align: center;
+    font-size: 14px;
+}
+.modal24-line-title{
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.modal19-line-info{
+    padding: 0 10px;
+}
+.modal19-line-img{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.modal19-line-img > div{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.modal19-line-hiker{
+    width: 100%;
+}
+.modal19-line-hiker-img{
+    margin-top: -31px;
+    width: 100%;
+}
+.modal19-line-hiker-img > img{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+}
+.modal19-line-hiker-info{
+    text-align: center;
+    height: 16px;
+}
+.modal19-line-hiker-info > span{
+    color: #9B8CE5;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+}
+.modal19-line-hiker-title{
+    color: #9B8CE5;
+    border: 1px solid #9B8CE5;
+    vertical-align: middle;
+    border-radius: 8px;
+    padding: 0 3px;
+    display: inline-block;
+    height: 16px;
+    line-height: 14px;
+    margin-bottom: 2px;
+}
+.modal19-line-hiker-title > span{
+    font-size: 12px;
+}
+.modal19-line-desc{
+    font-size: 12px;
+    line-height: 18px;
+    height: 54px;
+    overflow: hidden;
+    color: #888;
+}
+
+.modal20-info{
+    position: relative;
+    padding: 10px;
+}
+.modal20-main{
+    padding: 10px;
+}
+.modal20-info img{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.modal20-top-info{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.11);
+    text-align: center;
+    border-radius: 10px;
+}
+.modal20-top-num{
+    position: absolute;
+    left: 10px;
+    top: -2px;
+    background-image: url("/public/images/wechat/v4/top_f2.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 38px;
+    color: #fff;
+    padding-bottom: 5px;
+    line-height: 12px;
+}
+.modal20-top-num > div:first-of-type{
+    font-size: 9px;
+    padding-top: 2px;
+    color: rgba(255,255,255,0.3);
+    font-weight: bold;
+}
+.modal20-top-desc{
+    font-size: 12px;
+    font-weight: inherit;
+    margin-top: 5px;
+}
+.modal20-top-desc img{
+    margin-bottom: 2px;
+    padding-left: 8px;
+}
+.modal20-top-name{
+    color: #fff;
+    font-size: 16px;
+}
+.modal20-top-name input{
+    width: 120px;
+    text-align: center;
+}
+.modal20-top-title input{
+    width: 100px;
+    text-align: center;
+}
+.modal20-top-title{
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.45);
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 2px;
+    font-size: 12px;
+    background-color: rgba(0,0,0,0.3);
+    height: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+}
+.modal20-swiper{
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.modal20-each{
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+}
+.modal20-each > div{
+    width: 100%;
+    text-align: center;
+}
+.modal20-time{
+    font-size: 12px;
+    color: #888;
+}
+.modal20-time span{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.modal20-status{
+    font-size: 12px;
+}
+.modal20-status.sign{ background-color: transparent; color: #f36549; }
+.modal20-status.se{ background-color: transparent; color: #ADADAD; }
+.modal20-status.su{ background-color: transparent; color: #ADADAD; }
+.modal20-status.sf{ background-color: transparent; color: #FDB25B; }
+.modal20-status.ss{ background-color: transparent; color: #7EDBA9; }
+.modal20-status.si{ background-color: transparent; color: #9B8CE5; }
+.modal20-status-btn{
+    color: #fff;
+    font-size: 12px;
+    padding: 0 30px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 9px;
+    margin-top: 4px !important;
+}
+
+.modal25-line{
+    padding: 10px;
+    padding-top: 0;
+}
+.modal25-line-info, .modal25-line-info span{
+    font-size: 12px;
+    margin-top: 5px;
+}
+.modal25-new, .modal21-new{
+    font-size: 10px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #fa7777;
+    color: #fff;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.show-remaining-time{
+    font-size: 12px;
+}
+
+.modal26-swiper{
+    overflow: hidden;
+    width:100%;
+    min-height: 100px;
+    padding: 0 30px
+}
+.slide-img{
+    padding-bottom: 10px;
+    padding: 0 5px;
+}
+.modal21-desc{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.city-list{
+    display: none;
+}
+.city-list-body{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2001;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.city-bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2001;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.city-list-main{
+    position: relative;
+    width: 70%;
+    z-index: 20001;
+    background-color: #fff;
+    border-radius: 12px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.city-notice{
+    padding: 30px 0 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.my-city{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+}
+.citys-main{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -moz-box-lines: multiple; /*Firefox*/
+    -webkit-box-lines: multiple; /*Safari,Opera,Chrome*/
+    box-lines: multiple;
+    -moz-flex-wrap: wrap; /*Firefox*/
+    -webkit-flex-wrap: wrap; /*Safari,Opera,Chrome*/
+    flex-wrap: wrap;
+    padding: 0 10px 20px 10px;
+}
+.city{
+    width: 33.33%;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+.city-checked{
+    position: absolute;
+    right: 12%;
+    top: 12%;
+}
+.city-list-close{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.modal27-swiper{
+    overflow: hidden;
+    width:100%;
+    min-height: 100px;
+}
+.modal27-swiper .swiper-slide{
+    padding: 10px 7px 10px 7px;
+}
+.modal27-img{
+    min-height: 72px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:10px;
+}
+.modal27-title{
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.modal25-img{
+    overflow: hidden;
+    position: relative;
+}
+.modal25-img img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /*transition: transform 200ms linear;
+    -moz-transition: -moz-transform 200ms linear;
+    -webkit-transition: -webkit-transform 200ms linear;
+    -o-transition: -o-transform 200ms linear;*/
+}
+
+.modal28{
+    min-height: 120px;
+}
+.modal28-module-bg{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.modal28-module-items{
+    margin-top: -12%;
+}
+.modal28-module-info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+.modal28-items-swiper{
+    padding-bottom: 38px;
+    overflow: hidden;
+}
+.modal28-module{
+    padding-bottom: 5px;
+}
+.modal28-module-item{
+    width: 33.33%;
+    padding: 0 5px;
+    text-align: center;
+    line-height: 20px;
+}
+.modal28-module-item-img{
+    width: 100%;
+    min-height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+}
+.modal28-module-title{
+    font-size: 24px;
+}
+.modal28-module-title i{
+    font-size: 20px;
+}
+.modal28-module-item-info{
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px #ddd;
+}
+.modal28-module-item-title{
+    font-size: 13px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+}
+.modal28-module-item-sub-title{
+    color: #999;
+    font-size: 12px;
+}
+
+.look-line-times{
+    line-height: 20px;
+    overflow: hidden;
+    height: 20px;
+}
+.look-new{
+    font-size: 10px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #fa7777;
+    color: #fff;
+    padding: 0 5px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.modal29{
+    min-height: 120px;
+    padding: 10px;
+}
+/*.modal29-list{
+    padding: 10px 5px;
+}*/
+/*.modal29-list > div{
+    padding: 0 5px;
+}*/
+.modal29-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+    min-height: 90px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.2);
+    border-radius:10px;
+    padding: 0 10px 5px 10px;
+}
+.modal29-img:first-of-type{
+    border-bottom: 1px solid #fff;
+}
+.modal29-img:last-of-type{
+    border-left: 1px solid #fff;
+}
+.modal29-img .flex-center{
+    /*background-color: rgba(0,0,0,0.2);*/
+}
+.modal29-name{
+    font-size: 16px;
+}
+.modal29-desc{
+    line-height: 20px;
+    border-radius: 15px;
+    padding: 0 10px;
+    margin-top: 3px;
+}
+
+/*城市切换标准样式*/
+.citys-page{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0;
+}
+.citys-close{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10001;
+    width: 100%;
+    height: 50px;
+}
+.citys-body{
+    position: relative;
+    padding-top: 48px;
+    width: 100%;
+    height: 100%;
+}
+.citys{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.city-each{
+    line-height: 50px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ddd;
+}
+.city-each.checked{
+    color: #35c87b;
+}
+.city-each i{
+    line-height: 50px;
+    font-size: 16px;
+}
+.citys-tip{
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    line-height: 50px;
+}
+
+.look-item{
+    margin: 0 10px 10px 10px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    width: 95%;
+}

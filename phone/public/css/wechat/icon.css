@@ -1,0 +1,338 @@
+/*图标样式，这里的样式仅显示出图标，局部调整样式请在页面上另外加*/
+.icon_css{
+    /*公有样式，必须有*/
+    background-image: url("../../images/wechat/icon.png?v=5");
+    background-size: 175px 196px;
+    vertical-align: middle;
+    display: inline-block;
+}
+/*活动详情页*/
+.icon_home{
+    background-position: 0 0;
+    height: 30px;
+    width: 30px;
+}
+.icon_pos{
+    background-position: 0 -30px;
+    height: 20px;
+    width: 17px;
+}
+.icon_time_green{
+    background-position: 0 -50px;
+    height: 16px;
+    width: 16px;
+}
+.icon_time_grey{
+    background-position: -16px -50px;
+    height: 16px;
+    width: 16px;
+}
+.icon_time{
+    background-position: -32px -50px;
+    height: 16px;
+    width: 16px;
+}
+.icon_ii{
+    background-position: -79px -50px;
+    height: 16px;
+    width: 16px;
+}
+.icon_gp{
+    background-position: -63px -50px;
+    height: 16px;
+    width: 16px;
+}
+.icon_wallet{
+    background-position: -48px -50px;
+    height: 16px;
+    width: 15px;
+}
+.icon_wallet2{
+    background-position: -111px -50px;
+    height: 16px;
+    width: 16px;
+}
+.icon_rss{
+    background-position: -17px -30px;
+    height: 20px;
+    width: 18px;
+}
+.icon_rss_grey{
+    background-position: -35px -30px;
+    height: 20px;
+    width: 18px;
+}
+.icon_small_leadertag_f{
+    background-position: -145px -34px;
+    height: 15px;
+    width: 15px;
+}
+.icon_leadertag_f{
+    background-position: -73px -30px;
+    height: 20px;
+    width: 20px;
+}
+.icon_small_leadertag_h{
+    background-position: -160px -34px;
+    height: 15px;
+    width: 15px;
+}
+.icon_leadertag_h{
+    background-position: -53px -30px;
+    height: 20px;
+    width: 20px;
+}
+.icon_small_leadertag_g{
+    background-position: -160px -176px;
+    height: 15px;
+    width: 15px;
+}
+.icon_leadertag_g{
+    background-position: -20px -176px;
+    height: 20px;
+    width: 20px;
+}
+.icon_small_leadertag_r{
+    background-position: -145px -176px;
+    height: 15px;
+    width: 15px;
+}
+.icon_leadertag_r{
+    background-position: 0 -176px;
+    height: 20px;
+    width: 20px;
+}
+.icon_teamtag{
+    background-position: -95px -50px;
+    height: 16px;
+    width: 16px;
+}
+/*.icon_sf{
+    background-position: 0 -103px;
+    height: 70px;
+    width: 70px;
+}*/
+.icon_star{
+    display: block;
+    background-position: -129px 0;
+    height: 12px;
+    width: 12px;
+    margin: 0 auto;
+}
+.icon_star.on{
+    background-position: -129px -13px;
+}
+.icon_star.half{
+    background-position: -129px -25px;
+}
+.icon_logo{
+    background-position: -91px 0;
+    height: 34px;
+    width: 34px;
+}
+.icon_logo_circle{
+    background-position: -141px 0;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+}
+.icon_close{
+    background-position: -127px -50px;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+.icon_sao{
+    background-position: -30px 0;
+    height: 24px;
+    width: 24px;
+}
+/*摄影大赛页*/
+.icon_gift{
+    background-position: -54px 0;
+    height: 17px;
+    width: 16px;
+}
+.icon_nt{
+    background-position: -70px -4px;
+    height: 15px;
+    width: 16px;
+}
+.icon_vote{
+    background-position: -86px -6px;
+    height: 13px;
+    width: 16px;
+}
+.icon_vi{
+    background-position: -102px -6px;
+    height: 13px;
+    width: 16px;
+}
+.icon_vote_close{
+    background-position: -143px -50px;
+    height: 16px;
+    width: 16px;
+}
+/*首页*/
+/*.icon_subs_btn{
+    background-position: -69px -103px;
+    height: 69px;
+    width: 75px;
+}*/
+.icon_search_btn_w{
+    background-position: -108px -34px;
+    height: 16px;
+    width: 17px;
+}
+.icon_activity_calendar{
+    background-position: 0 -66px;
+    height: 35px;
+    width: 35px;
+}
+.icon_sbutton{
+    background-position: -140px -66px;
+    height: 35px;
+    width: 35px;
+}
+.icon_wonderful_review{
+    background-position: -35px -66px;
+    height: 35px;
+    width: 35px;
+}
+.icon_vbutton{
+    background-position: -105px -66px;
+    height: 35px;
+    width: 35px;
+}
+.icon_mbutton{
+    background-position: -70px -66px;
+    height: 35px;
+    width: 35px;
+}
+.icon_32news{
+    background-position: 0 -119px;
+    height: 27px;
+    width: 66px;
+}
+.icon_map_marker{
+    background-position: -95px -35px;
+    height: 13px;
+    width: 10px;
+}
+.icon_top_bg{
+    background-position: -66px -119px;
+    height: 32px;
+    width: 60px;
+}
+.icon_home_new{
+    background-position: 0 -101px;
+    height: 18px;
+    width: 20px;
+}
+.icon_home_new_grey{
+    background-position: -20px -101px;
+    height: 18px;
+    width: 20px;
+}
+.icon_team{
+    background-position: -40px -101px;
+    height: 18px;
+    width: 18px;
+}
+.icon_team_grey{
+    background-position: -58px -101px;
+    height: 18px;
+    width: 18px;
+}
+.icon_my{
+    background-position: -77px -101px;
+    height: 18px;
+    width: 17px;
+}
+.icon_my_grey{
+    background-position: -94px -101px;
+    height: 18px;
+    width: 17px;
+}
+.icon_chevron_left{
+    background-position: -159px -50px;
+    height: 14px;
+    width: 15px;
+}
+/*个人中心*/
+.icon_set{
+    background-position: -145px -101px;
+    height: 30px;
+    width: 30px;
+}
+.icon_woman{
+    background-position: -129px -103px;
+    height: 14px;
+    width: 14px;
+}
+.icon_man{
+    background-position: -115px -103px;
+    height: 14px;
+    width: 14px;
+}
+.icon_l_h{
+    background-position: -145px -135px;
+    height: 14px;
+    width: 13px;
+}
+.icon_l_l{
+    background-position: -160px -135px;
+    height: 14px;
+    width: 13px;
+}
+.icon_l_g{
+    background-position: -130px -135px;
+    height: 14px;
+    width: 13px;
+}
+.icon_introduce{
+    background-position: 0 -151px;
+    height: 25px;
+    width: 22px;
+}
+.icon_achievement{
+    background-position: -44px -151px;
+    height: 25px;
+    width: 22px;
+}
+.icon_subscribe{
+    background-position: -22px -151px;
+    height: 25px;
+    width: 22px;
+}
+.icon_file{
+    background-position: -66px -151px;
+    height: 17px;
+    width: 14px;
+}
+.icon_ablum{
+    background-position: -80px -151px;
+    height: 14px;
+    width: 14px;
+}
+.icon_exchange_history{
+    background-position: -94px -151px;
+    height: 23px;
+    width: 20px;
+}
+.icon_level_tro{
+    background-position: -114px -151px;
+    height: 23px;
+    width: 20px;
+}
+.icon_child_footprint{
+    background-position: -134px -151px;
+    height: 25px;
+    width: 22px;
+}
+
+.icon_set{
+    background-position: -156px -153px;
+    height: 16px;
+    width: 16px;
+}

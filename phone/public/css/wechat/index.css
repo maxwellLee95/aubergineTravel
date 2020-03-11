@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 2015-4-23, 11:42:23
+    Author     : 9B8CE5
+*/
+
+/*index-nav*/
+.index-nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+.index-nav > a{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 49px;
+    line-height: 30px;
+}
+.index-nav > a > img{
+    height: 18px;
+    /*height: 24px;*/
+}
+.index-nav > a > p{
+    font-size: 12px;
+    margin: 0;
+    height: 18px;
+    line-height: 16px;
+}
+.index-nav > a.checked{
+    color: rgba(72, 203, 132, 0.9);
+    /*color: #ff5501;*/
+}
+
+/*单页共有样式表在这里添加*/
+a, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+a[data-btnloading], div[data-btnloading]{
+    background-color: #888 !important;
+}
+
+.dot {
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 34%;
+    top: 8%
+}

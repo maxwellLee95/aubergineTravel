@@ -1,0 +1,414 @@
+.club-info-text div{padding: 0px 0px 5px;}
+/* vote */
+.vote-list-view li {background-color: #fff; margin-bottom: 20px;}
+.vote-list-view li a {text-decoration:none;}
+.vote-list-view .vote-box {padding: 5px;}
+.vote-list-view .vote-box .vote-info {height: 70px; margin: 5px; border-bottom: 1px solid #ebeae8;}
+.vote-list-view .vote-logo {float: left; max-width: 100px; max-height: 50px; margin: 10px 5px 5px 0; overflow: hidden;}
+.vote-list-view .vote-info-text { margin: 5px 0 5px; float: left; height: 50px; width: 60%; padding: 5px 0; line-height: 24px;}
+.grey {font-size: 12px;}
+.text-overflow{
+    display:block;/*内联对象需加*/
+    width:13em;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.vote-list-view .vote-description p{ margin: 5px 0 0 0;}
+.fr {float: right;}
+
+
+
+#event-vote {padding: 0px;background: #ebeae8;}
+#event-vote li {
+    padding: 10px 15px 10px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+/*#event-vote li  {background: #fff;}*/
+#banner-content-right {line-height: 15px; padding-top: 4px;}
+
+.event-intro-box li {
+    border-bottom: 1px solid #ebeae8;
+    height: auto;
+    padding: 7px 0;
+}
+.event-intro-box li:last-child {border-bottom: 0;}
+.col-bg {background: #3ec77d; width: 100%; padding: 3px; border-radius: 0px;}
+.progress-bar-success, .btn-success {background: #3ec77d;}
+.cl-w {color: #fff; font-size: 12px;}
+.pd {padding: 0 2px;}
+.imgbox-title { height: 40px; line-height: 40px; }
+.imgbox-body {}
+.imgbox-foot {height: 40px; line-height: 40px;}
+.sr-only {position: relative;}
+.progress {margin: 12px 0px 8px}
+.sm-box {margin-top: 5px;}
+.sm-foot {padding: 0 5px; text-align: center;}
+.small-image {height: auto;}
+.btn-link:hover {text-decoration: none;}
+.more-text {color: #cccccc;}
+.more-icon { width: 12px; height: 12px;margin: 0 3px 3px 5px;}
+/*#showvote {background: rgba(255, 255, 255, 0.9); margin: 10px 10px 50px;}*/
+/*#address-content-left {line-height: 17px;}*/
+/*#sharemod {z-index: 1100;}*/
+#no-line li {border: 0px; }
+.progress-bar-grey {background: #F6AE5D;}
+.orange {color: #F6AE5D;}
+
+.bl {
+    margin: 0px;padding: 5px; border-top: 1px solid #f0f0f0;
+}
+
+.club-list-view li {
+    border-radius: 5px;
+    margin: 0 10px 20px;
+    overflow: hidden;
+}
+
+.text-overflow {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 5em;
+    word-break: keep-all;
+}
+
+.mmr {
+    border-left:1px solid #ebeae8; padding-left: 5px; font-size: 14px;
+}
+
+#album {
+    margin-bottom: 7px;
+}
+
+.closeBtn{
+    padding:3px;
+    background: #626161;
+    border: 1px solid #3ec77d;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius:19px;
+    -o-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -moz-border-radius:19px;
+    -webkit-border-radius: 19px;
+}
+.closeBtn .close{
+    width: 19px;
+    color: #3ec77d;
+}
+
+.modal-open .modal {
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    margin: 10px;
+}
+
+.modal-header{
+    background: #3ec77d;
+    color: #fff;
+    height: 32px;
+    border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -ms-border-top-left-radius: 5px;
+    -moz-border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    -ms-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+.modal-dialog{
+    margin: 50px 15px;
+}
+.modal-title{
+    display: inline-block;
+    font-size: 12px;
+    position: absolute;
+    top: 8px;
+}
+.modal-body{
+    padding:0;
+}
+.modal-center{
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    padding-top: 10px;
+}
+.modal-center input{
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+.modal-input-person{
+    position: absolute;
+    right: 14%;
+    top: 44px;
+    font-size: 12px;
+    color: #ff5000;
+}
+.modal-team-consult-content{
+    padding: 10px;
+}
+
+.modal-activity-person,.activity-money{
+    width: 100%;
+    padding: 10px 10px 0 10px;
+}
+.modal-activity-person-label,.activity-money-label{
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+.modal-activity-person-label{
+    height: 26px;
+    line-height: 26px;
+}
+.modal-activity-person-input{
+    text-align: left;
+    width: 60%;
+    float: left;
+}
+.modal-activity-person-input input{
+    border: 1px solid #ddd;
+    border-radius:4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    text-align: left;
+    padding-left: 10px;
+}
+.activity-money-count{
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+.activity-money-count-btn{
+    margin-top: 0;
+    margin-left: 10%;
+    width: 80%;
+    border: 0;
+    background: #3ec77d;
+    color: #fff;
+    height: 30px;
+    border-radius:4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.hrDiv {
+    background: #f3f3f3 none repeat scroll 0 0;
+    height: 10px;
+    width: 100%;
+}
+
+.modal-service-qrcode{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.modal-reward-notice{
+    padding: 10px 10px 0 10px;
+    text-align: center;
+}
+.modal-reward-notice > div > span{
+    color: #3EC77D;
+}
+.modal-reward-notice div:last-of-type{
+    font-size: 11px;
+    color: #aaa;
+    padding-top: 5px;
+}
+.img {
+    position: relative;
+}
+.img-title {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-image: url('/images/wechat/team_title_bg.png');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    padding: 15px 5px 5px 5px;
+}
+
+/*追加多玩路线的样式*/
+.modal-header .close{
+    margin-top: -5px;
+}
+button.close{
+    color: #fff;
+}
+.close:hover,.close:focus{
+    color: #fff;
+    opacity: 1;
+}
+.step-div{
+    display: none;
+}
+.my-duowan-title{
+    text-align: center;
+    padding: 10px 0;
+}
+.my-duowan-input{
+    padding: 0 10px;
+}
+.my-duowan-input input{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+.line-title{
+    text-align: left;
+    padding: 10px 0 10px 10px;
+}
+.line-ul{
+    padding: 10px;
+}
+.line-ul li{
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.line-ul li:last-of-type{
+    border-bottom: 1px solid #ddd;
+}
+.line-ul li .pull-left{
+    width: 40%;
+    text-align: center;
+    background: rgba(62,199,125,1);
+}
+.line-ul li .pull-left img{
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    max-height: 100px;
+}
+.line-ul li .pull-right{
+    width: 60%;
+    text-align: left;
+    height: 100px;
+    padding: 0 15px 0 10px;
+    display: table;
+}
+.line-ul li .pull-right div{
+    display: table-cell;
+    vertical-align: middle;
+}
+.lineRadioDiv{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100px;
+    line-height: 100px;
+}
+#uploadimg_model{
+    margin: 0;
+}
+#choiceThisLine{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+.submit-result{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loading{
+    position: fixed;
+    z-index: 10010;
+}
+
+.radio {
+    min-height: 16px;
+}
+
+label.radio {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    margin: 0 5px 5px 0;
+    padding: 0;
+    background-color: #cfcfcf;
+    border-radius: 100%;
+    vertical-align: top;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1) inset, 0 1px 4px rgba(0, 0, 0, 0.1) inset, 1px -1px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+label.radio > span.pip {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    background: #fff;
+    top: 4px;
+    left: 4px;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(255, 255, 255, 0.4) inset;
+    background-image: linear-gradient(#ffffff 0, #e7e7e7 100%);
+    transform: scale(0, 0);
+    transition: all 0.2s ease;
+}
+label.radio.on {
+    background-color: #3ec77d;
+}
+label.radio.on > span.pip {
+    transform: scale(1, 1);
+}
+
+input[type=radio].replaced {
+    position: absolute;
+    left: -9999em;
+}
+
+.select-activity {
+    padding: 3px 0;
+}
+
+.check-like{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1040;
+    display: none;
+    opacity: 0;
+}
+.check-like-bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.progress-main, .vote-each{
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -moz-box-lines: single; /*Firefox*/
+    -webkit-box-lines: single; /*Safari,Opera,Chrome*/
+    box-lines: single;
+    -moz-flex-wrap: nowrap; /*Firefox*/
+    -webkit-flex-wrap: nowrap; /*Safari,Opera,Chrome*/
+    flex-wrap: nowrap;
+}

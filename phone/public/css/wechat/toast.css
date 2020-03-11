@@ -1,0 +1,23 @@
+/*慢慢消失的提示弹窗样式*/
+.error-input{
+    z-index:1003;
+    font-size: 1.37em;
+    position: fixed;
+    bottom:10%;
+    width: 100%;
+    opacity:0;
+    height: 24px;
+    display: none;
+    transition: opacity 1s ease-out;
+}
+.notice-div{
+    color:#fff;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+/*慢慢消失的提示弹窗样式结束*/

@@ -1,0 +1,784 @@
+.banners{
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0.5rem 2.5rem rgba(183, 183, 183, 0.5);
+}
+.swiper-pagination-bullet{
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0.5rem;
+}
+.banner-img{
+    width: 100%;
+    min-height: 10rem;
+}
+
+.navbtns{
+    background-color: #fff;
+    padding: 1.5rem 0.5rem 0 0.5rem;
+}
+.navbtn{
+    width: 20%;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.navbtn-icon{
+    padding: 0 6vw;
+}
+.navbtn-name{
+    padding-top: 0.3rem;
+    font-size: 1.2rem;
+}
+
+.discount{
+    background-color: #fff;
+    display: block;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+}
+.discount-surplus-time{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    height: 2rem;
+}
+.discount-desc{
+    padding-right: 0.5rem;
+}
+.discount-time{
+    background-color: #ff6666;
+    color: #fff;
+    border-radius: 0.2rem;
+    width: 18px;
+    margin: 0 0.2rem;
+}
+.discount-dou{
+    margin: 0 0.2rem;
+}
+.discount-activity{
+    padding-top: 1rem;
+}
+.discount-activity-img{
+    background-color: #ddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32.4vw;
+    border-radius: 0.3rem;
+}
+.discount-activity-info{
+    width: 58vw;
+}
+.discount-activity-name{
+    font-size: 1.4rem;
+    color: #333;
+}
+.discount-activity-time{
+    color: #999;
+    font-size: 1.2rem;
+}
+.discount-activity-money{
+    font-size: 1.2rem;
+}
+.discount-activity-money span{
+    color: #ff6666;
+    font-size: 2rem;
+}
+.discount-activity-orginal-money{
+    color: #ccc;
+    padding-left: 1rem;
+    text-decoration: line-through;
+    font-size: 1.2rem;
+}
+.discount-surplus-sign{
+    border: 1px solid #ff6666;
+    background-color: #ffcccc;
+    color: #ff6666;
+    font-size: 1.2rem;
+    width: 40%;
+    border-radius: 1.2rem;
+    height: 1.6rem;
+}
+.discount-btn{
+    color: #fff;
+    background-color: #ff6666;
+    padding: 0.6rem 2.6rem;
+    font-size: 1.4rem;
+    border-radius: 3px;
+}
+
+.cuts{
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+.cuts-title{
+    padding: 1.4rem;
+    font-size: 1.6rem;
+}
+.cuts-title span{
+    font-weight: bold;
+    color: #333;
+}
+.cuts-body{
+    background-image: url('/public/images/wechat/v4/cut_bg.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+.cut-activity-img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 17rem;
+    position: relative;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.cut-activity-info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0 0.5rem;
+    line-height: 3rem;
+    background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.2));
+    background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.2));
+}
+.cut-activity-name{
+    font-size: 1.7rem;
+}
+.cut-activity-tip{
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #eee;
+    border-bottom-left-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+}
+.cut-text{
+    font-size: 1.6rem;
+    background-color: #ff6666;
+    color: #fff;
+    margin-left: 1rem;
+    margin-right: 0.2rem;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.cut-discount{
+    font-size: 2rem;
+    color: #ff6666;
+    font-weight: bold;
+}
+.cut-invite-btn span{
+    background-color: #ff6666;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.near-items{
+    margin: 10px 0;
+    background-color: #fff;
+}
+.near-items-title{
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    padding-top: 10px;
+}
+.near-item{
+    margin: 0 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.1rem solid #DADADA;
+    margin-bottom: 1.5rem;
+}
+.near-item:last-of-type{
+    border-bottom: 0;
+    margin-bottom: 1rem;
+}
+.near-item-img{
+    position: relative;
+    min-width: 32.4vw;
+    width: 32.4vw;
+    height: 24.8vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+.near-item-name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 0.2rem 0;
+    background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.8));
+    background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.8));
+}
+.near-item-info{
+    padding-left: 1rem;
+    width: 65vw;
+}
+.near-item-info > div{
+    width: 100%;
+}
+.near-item-highlight{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    align-self: flex-start;
+    -webkit-align-self: flex-start;
+    color: #333;
+    font-size: 1.4rem;
+}
+.near-item-other{
+    align-self: flex-end;
+    -webkit-align-self: flex-end;
+}
+.near-item-pv{
+    background-image: url('/public/images/wechat/v4/see_g.png');
+    background-position: left;
+    background-size: auto 65%;
+    background-repeat: no-repeat;
+    padding-left: 6.5vw;
+    color: #999;
+    font-size: 1.2rem;
+}
+.near-item-status{
+    display: inline-block;
+    color: #9b8ce5;
+    padding-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.items{
+    margin-bottom: 1rem;
+}
+.items-title{
+    padding: 1.4rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+.items-title span{
+    font-weight: bold;
+    color: #333;
+}
+.items-body{
+    margin-bottom: 1rem;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+.item-body{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+.item-top{
+    padding: 0 1rem 1rem 1rem;
+}
+.item-title{
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+.item-sub-title{
+    color: #fff;
+    padding-left: 0.2rem;
+}
+.item-lines{
+    padding: 0 0.5rem 0 0.5rem;
+    position: relative;
+}
+.item-lines-swiper{
+    overflow: inherit;
+    padding-bottom: 3rem;
+}
+.item-line{
+    display: block;
+    width: 33.33%;
+    padding: 0 0.5rem;
+}
+.item-first-line-img, .item-line-img{
+    width: 100%;
+    height: 47vw;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.3rem;
+    position: relative;
+    z-index: 2;
+}
+.item-line-img{
+    width: 100%;
+    height: 26vw;
+}
+.item-line-info{
+    line-height: 1.8rem;
+    padding-top: 0.5rem;
+}
+.item-first-line-name{
+    font-size: 1.5rem;
+    color: #000;
+    /*margin-left: -0.5rem;*/
+    width: 85%;
+}
+.item-line-name{
+    font-size: 1.3rem;
+    color: #000;
+}
+.item-line-btn{
+    color: #9b8ce5;
+}
+.item-line-btn span{
+    padding-right: 0.5rem;
+}
+.item-line-each{
+}
+.item-first-line-time, .item-first-line-money{
+    color: #999;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.item-line-time, .item-line-money{
+    color: #999;
+    font-size: 1.2rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets.item-swiper-pagination, .swiper-pagination-custom, .swiper-pagination-fraction{
+    position: absolute;
+    left: 0;
+    bottom: 3vw;
+    width: 100%;
+}
+.item-swiper-pagination .swiper-pagination-bullet{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+}
+.item-swiper-pagination .swiper-pagination-bullet-active{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #9B8CE5;
+    color: #fff;
+    font-size: 1rem;
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    -webkit-box-pack: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.selecteds{
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+.selecteds-title{
+    padding: 1.4rem;
+    font-size: 1.6rem;
+}
+.selecteds-title span{
+    font-weight: bold;
+    color: #333;
+}
+.selected-line{
+    padding-bottom: 1rem;
+}
+.selected-line:last-of-type{
+    padding-bottom: 0;
+}
+.selected-line:last-of-type .selected-lines{
+    border-bottom: 0;
+}
+.selected-line-img{
+    width: 100%;
+    height: 17rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.3rem;
+    position: relative;
+}
+.selected-line-top{
+    position: absolute;
+    left: 1rem;
+    top: -0.2rem;
+    z-index: 2;
+    background-image: url(/public/images/wechat/v4/top_f2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3.8rem;
+    color: #fff;
+    padding-bottom: 0.5rem;
+    line-height: 1.2rem;
+}
+.selected-line-top > div{
+    margin-top: -0.7rem;
+}
+.selected-line-top-title{
+    font-size: 0.9rem;
+    padding-top: 0.2rem;
+    color: rgba(255,255,255,0.3);
+    font-weight: bold;
+}
+.selected-line-top-num{
+    margin-top: -0.2rem;
+}
+.selected-line-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.11);
+}
+.selected-line-info{
+    position: relative;
+    z-index: 2;
+}
+.selected-line-name{
+    font-size: 1.6rem;
+    color: #fff;
+    padding-bottom: 0.5rem;
+}
+.selected-line-go{
+    background-image: url('/public/images/wechat/v4/foot.png');
+    background-position: left;
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    padding-left: 4vw;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+.selected-line-score{
+    background-image: url('/public/images/wechat/v4/star_w.png');
+    background-position: left;
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+    padding-left: 4vw;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.selected-lines{
+    padding: 0 1vw;
+    border-bottom: 0.1rem solid #DADADA;
+}
+.selected-line-time{
+    width: 31vw;
+    margin: 3vw 0;
+    text-align: center;
+    border-right: 0.1rem solid #D8D8D8;
+}
+.selected-line-time:last-of-type{
+    border-right: 0;
+}
+.selected-line-activity-time{
+    color: #888;
+    font-size: 1.2rem;
+}
+.selected-line-activity-time span{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.selected-line-activity-status{
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+}
+.selected-line-btn span{
+    display: inline-block;
+    background-color: #9B8CE5;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0 2.5rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 0.9rem;
+    width: 84%;
+}
+.selected-line-activity-fire{
+    background-image: url('/public/images/wechat/v4/fire.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 3vw;
+    height: 3.83vw;
+    margin-right: 0.3rem;
+}
+
+.list{
+    background-color: #fff;
+    min-height: 100vh;
+}
+.list-title{
+    font-size: 1.6rem;
+    padding: 1.4rem;
+}
+.list-title span{
+    font-weight: bold;
+    color: #333;
+}
+.list-filters-seize{
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    position: relative;
+}
+.list-filters{
+    border-bottom: 0.1rem solid #ddd;
+    padding: 0 1.2rem;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+.list-filters.fixed-top{
+    position: fixed;
+}
+.list-filter{
+    line-height: 5rem;
+    position: relative;
+    z-index: 2;
+    color: #666;
+    font-size: 1.5rem;
+}
+.list-filter.selected{
+    color: #3c3c3c;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border: 0.4rem solid transparent;
+    border-top: 0.4rem solid #ccc;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+.list-filter.selected .triangle{
+    border-top: 0.4rem solid #9b8ce5;
+}
+.list-filter span{
+    padding-left: 0.5rem;
+}
+.list-content{
+    padding: 1rem 1rem 0 1rem;
+}
+.list-filter-content{
+    position: absolute;
+    left: 0;
+    top: 4.1rem;
+    width: 100%;
+    line-height: 2.4rem;
+    display: none;
+}
+.list-filter-bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.list-fiter-title{
+    background-color: #fff;
+    padding-left: 1.2rem;
+    padding-top: 0.8rem;
+}
+.list-filter-body{
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    padding: 0.6rem;
+    box-shadow: 0 0.2rem 0.5rem #eee;
+}
+.list-filter-btn{
+    width: 25%;
+    text-align: center;
+    padding: 0 0.6rem;
+    margin-bottom: 1.2rem;
+}
+.list-filter-btn span{
+    background-color: #f5f5f5;
+    color: #999;
+    display: block;
+    line-height: 3rem;
+    border-radius: 0.3rem;
+}
+.list-filter-btn.selected span{
+    background-color: #9b8ce5;
+    color: #fff;
+}
+.search-img{
+    min-width: 28.8vw;
+    height: 25.6vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.3rem;
+}
+.search-line{
+    margin: 0 0 10px 0;
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+.search-line-info{
+    padding-left: 1rem;
+}
+.search-line-name{
+    margin-left: -0.5rem;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    height: 2.2rem;
+    overflow: hidden;
+}
+.search-line-times{
+    color: #666;
+    padding: 0.2rem 0;
+}
+.search-line-other{
+    color: #999;
+}
+.list-loading{
+    padding-bottom: 1rem;
+}
+.search-line-day{
+    padding-right: 1rem;
+}
+.look-new {
+    font-size: 1rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    background-color: #fa7777;
+    color: #fff;
+    padding: 0 0.5rem;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.shadow-circle{
+    position: absolute;
+    background-color: #fff;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 0.2rem #ddd inset;
+}
+.shadow-circle.left{
+    left: -0.5rem;
+    top: -0.5rem;
+}
+.shadow-circle.right{
+    right: -0.5rem;
+    top: -0.5rem;
+}
+.shadow-bg{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+.shadow-bg.left{
+    left: 0;
+}
+.shadow-bg.right{
+    right: 0;
+}
+
+
+
+
+#homeBox {
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    z-index: 10;
+    bottom: 15px;
+    right: 15px;
+}
+#homeA {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url('/web/wechat/coin/images/home.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.broadcast{
+    background-color: #fff;
+    margin-bottom: 10px;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+#news {
+    height: 20px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.news{
+    width: 70%;
+    margin: 10px 0;
+    padding: 0 5px 0 10px;
+}
+.news .div-center{
+    border: 0 !important;
+}
+.news .div-center img{
+    width: 100% !important;
+}
+.coin{
+    width: 30%;
+    background-color: #fff;
+    padding: 0 15px;
+    color: #ff6666;
+    line-height: 20px;
+    font-weight: bold;
+}
+.coin-desc{
+    color: #f09e62;
+    font-weight: bold;
+    padding-left: 7px;
+    width: 80%;
+}
+.info-line{
+    width: 1px;
+    height: 12px;
+    background-color: #C7C7C7;
+}
+.scrollText ul li {
+    height: 20px;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.ss{ color: #f36549; }
+.se{ color: rgba(138, 138, 138, 0.9); }
+.su{ color: rgba(138, 138, 138, 0.9); }
+.sf{ color: rgba(252, 146, 22, 0.9); }
+.si{ color: rgba(193, 76, 251, 0.9); }

@@ -1,0 +1,455 @@
+.topBar{
+    background-color: #54b5f7;
+    background-image: url("/public/images/wechat/children/index_wx.jpg");
+    color: #fff;
+}
+.topBar p{
+    color: #fff;
+}
+.back {
+    float: left;
+    padding-left: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 8px;
+}
+.home {
+    float: right;
+    padding-right: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 8px;
+}
+.line{
+    border-radius: 8px;
+}
+.line-img{
+    padding-top: 2.5%;
+}
+.activity{
+    padding: 0 5px;
+}
+body{
+    background-color: #f2a868;
+// background-image: url("/public/images/wechat/children/index_bg.jpg");
+// background-size: 100%;
+// background-position: 0 40px;
+}
+.content{
+    background-color: #f2a868;
+    /*color: #8d6b57;*/
+}
+.top-bg{
+    background-color: #f2a868;
+    background-image: url("/public/images/wechat/children/index_top_bg_new.png");
+// height: 100px;
+    position: relative;
+    padding-top: 54%;
+    background-size: cover;
+// z-index: 102;
+}
+.top-bg .main-img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -20%;
+}
+.top-bg .center-bg{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 88px;
+}
+.center-top-img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 94px;
+    z-index: 100;
+}
+.childs{
+    margin: 0 3.5%;
+    padding-top: 14%;
+    background-color: #f9f0d3;
+    position: relative;
+    z-index: 99;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.child{
+    margin: 10px;
+    border: 1px solid #dcd4bb;
+    background-color: #f7f7f2;
+    border-radius: 4px;
+}
+.child img{
+    width: 60px;
+    height: 60px;
+}
+.child-name{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 8px;
+}
+.child-other{
+    color: rgba(141, 107, 87, 0.5);
+    font-size: 12px;
+}
+.child-achievements{
+    padding: 20px 10px 0 10px;
+}
+.achievement{
+    float: left;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 20%;
+}
+.achievement img{
+    max-height: 50px;
+    max-width: 50px;
+}
+.city_img{
+    width: 94%;
+    padding-top: 88%;
+    margin-left: 6%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+// border: 1px solid #fff;
+    display: inline-block;
+}
+.city_text{
+    display:block;
+    width:74px;
+    text-align:center;
+    color: #fff;
+    margin: 6% auto 10%;
+    background: linear-gradient(0deg, #ef8d59 0%, #ed7d51 51%, #ed714a 100%);
+    border-radius: 12px;
+}
+.show-more-achievements a{
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #8d6b57;
+    background-color: #f2e1a8;
+    font-size: 12px;
+    padding: 10px 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/*.gray-img{
+    position: absolute;
+    top: -50px;
+}*/
+/*.gray{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}*/
+.swiper-children, .swiper-children .swiper-slide {
+    height: 100px;
+}
+.swiper-pagination{
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+}
+.swiper-pagination > span{
+    padding: 0 3px;
+}
+.pagination-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba( 133, 193, 223, 0.3 );
+    display: inline-block;
+}
+.pagination-active{
+    width: 10px;
+    background: #54b5f7;
+}
+.child .swiper-slide{
+    padding: 20px;
+}
+.child-achievements{
+    text-align: center;
+}
+.hide-achievements{
+    display: none;
+}
+.achievement-name{
+    font-size: 12px;
+}
+.loading-img{
+    width: 30px;
+    height: 30px;
+    margin-top: 52px;
+}
+.no-join-tby{
+    color: #8d6b57;
+    font-size: 12px;
+}
+.no-join-tby a{
+    font-size: 12px;
+    color: #66a3c2;
+    border-bottom: 1px solid #66a3c2;
+}
+.set-child-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #4d99be;
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 6px;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    font-size: 12px;
+    z-index: 1000;
+}
+/*小伙伴动态*/
+.partners{
+    margin: 10px 3.5% 0 3.5%;
+    background-color: #f9f0d3;
+    border-radius: 4px;
+    padding-top: 15px;
+    position: relative;
+    z-index: 101;
+}
+.div-title{
+    color: #fefefe;
+    padding-top: 19.6%;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+// font-weight: bold;
+    background-image: url("/public/images/wechat/children/body_title.png");
+    background-size: cover;
+    position: relative;
+}
+.title_text{
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -3px;
+    margin-left: -39px;
+}
+.div_body{
+    width: 100%;
+    padding-bottom: 3.5%;
+    background-color: #ef905a;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.div_content{
+    background-color: #fff;
+    width: 95.7%;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding-top: 2%;
+}
+.partner-join{
+    border: 1px solid #dcd4bb;
+    background-color: #f7f7f2;
+    border-radius: 4px;
+    margin: 0 10px 20px 10px;
+    font-size: 12px;
+}
+.partner-notice{
+    color: #071212;
+    padding: 10px 10px 0 10px;
+}
+.partner-activity{
+    padding: 10px;
+}
+.partner-activity img{
+    width: 100%;
+}
+.partners-swiper, .partners-swiper .swiper-slide {
+    width: 100%;
+}
+.activity-leader, .activity-time, .activity-status{
+    padding-left: 6px;
+}
+.activity-name, .activity-leader{
+    color: #8d6b57;
+}
+.activity-time{
+    color: rgba( 141, 107, 87, 0.5 );
+}
+/*.triangle2{
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 3px;
+    top: 40%;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}*/
+/*.activity-status{
+    position: absolute;
+    left: 90px;
+    bottom: 0;
+}*/
+.activity-status .se { background-color: rgba(138, 138, 138, 0.9); }
+.activity-status .su{ background-color: rgba(138, 138, 138, 0.9); }
+.activity-status .sf{ background-color: rgba(252, 146, 22, 0.9); }
+.activity-status .ss{ background-color: rgba(72, 203, 132, 0.9); }
+.activity-status .si{ background-color: rgba(193, 76, 251, 0.9); }
+.activity-status span{
+    font-size: 11px;
+    color: #fff;
+    padding: 0 4px;
+    display: inline-block;
+    margin-top: 0;
+}
+/*童步营活动*/
+.tby-activitys{
+    margin: 0 2.5%;
+    background-color: #f2a868;
+// border-radius: 4px;
+// padding-top: 15px;
+    position: relative;
+    z-index: 99;
+}
+.tby-activity{
+    padding: 0 10px 10px 10px;
+}
+.tby-activity-img{
+    position: relative;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.tby-activity-img img{
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.tby-activity-name{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0,  0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0,  0) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    height: 30px;
+    line-height: 30px;
+}
+.tby-desc{
+    color: #ea6a38;
+    font-size: 12px;
+    background-color: #f7f7f2;
+    padding: 10px;
+}
+.tby-activity-info{
+    font-size: 12px;
+    background-color: #f7f7f2;
+    padding: 10px;
+    padding-top: 0;
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.tby-activity-achievement img{
+    width: 25%;
+    float: right;
+}
+/*成就介绍*/
+.achievement-info{
+    float: left;
+    width: 100%;
+    border: 1px solid #fbd194;
+    background-color: #f7f7f2;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 40px;
+    position: relative;
+    display: none;
+}
+.achievement-activity-img img{
+    width: 100%;
+}
+.swiper-achievement, .swiper-achievement .swiper-slide{
+    height: 90px;
+}
+.achievement-desc, .achievement-info-title{
+    padding-bottom: 10px;
+}
+.achievement-info-title{
+    color: #66a3c2;
+}
+.achievement-activity{
+    background-color: #eceff0;
+    padding: 5px;
+}
+.achievement-activity-achievement img{
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.achievement-top-triangle{
+    position: absolute;
+    top: -8px;
+    width: 15px;
+    height: 15px;
+    background-color: #f7f7f2;
+    border-left: 1px solid #fbd194;
+    border-top: 1px solid #fbd194;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);     /* IE 9 */
+    -moz-transform:rotate(45deg);    /* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg);  /* Opera */
+}
+.achievement-bottom-close{
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+.achievement-bottom-close-bg{
+    background-color: #f7f7f2;
+    width: 40px;
+    height: 35px;
+    margin: 0 auto;
+    border: 1px solid #fbd194;
+    border-top: 0;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.achievement-bottom-close-img{
+    background-color: #e55c57;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.achievement-bottom-close-img i{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    font-size: 22px;
+    padding-top: 3px;
+}

@@ -1,0 +1,124 @@
+#a {
+    margin: 5px 10px 15px;
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 5px 0 0 0;
+}
+
+#c {
+    background: #fff;
+}
+
+#album {
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.a-photos {
+    width: 32%;
+    height: 100px;
+    float: left;
+    margin: 2% 2px 0 2px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px;
+}
+
+.a-photos img {
+    width: 100%;
+    height: 100%;
+}
+
+.a-btn {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #f3f3f3;
+    text-align: center;
+    color: #fff;
+}
+
+.a-btn:active {
+    background: #fff;
+    color: #000;
+}
+
+.a-btn span {
+    font-size: 50px;
+    line-height: 100px;
+}
+
+#reduce {
+    font-size: 70px;
+    line-height: 90px;
+}
+
+input {
+    font-size: 14px;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+input::-moz-placeholder {
+    font-size: 14px;
+}
+
+textarea {
+    border: none;
+    width: 92%;
+    height: 100px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+#delete {
+    width: 50%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    line-height: 40px;
+    background: #E25757;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    font-size: 16px;
+    border-top: 1px solid #e9e9e9;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#save {
+    width: 50%;
+    bottom: 0px;
+    left: 50%;
+    right: 0px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    font-size: 16px;
+    border-top: 1px solid #e9e9e9;
+    cursor: pointer;
+    z-index: 10;
+    background: -moz-linear-gradient(top, #9B8CE5, #9B8CE5); /*鐏嫄*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9B8CE5),
+    to(#9B8CE5)); /*璋锋瓕*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9B8CE5),
+    to(#9B8CE5)); /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #9B8CE5, #9B8CE5);
+    /*Safari5.1 Chrome 10+*/
+}
+
+.reduse {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    display: none;
+}

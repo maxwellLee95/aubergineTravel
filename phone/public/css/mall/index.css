@@ -1,0 +1,103 @@
+.back, .home{
+    top: 0;
+}
+.trapezoid {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    background: #66cc33;
+    transform: rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}
+
+.goods-money{
+    color: rgba(252, 146, 22, 0.9);
+    font-size: 20px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 5px;
+}
+.goods-old-money{
+    font-size: 12px;
+    display: inline-block;
+    font-weight: normal;
+    color: #333;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+.sold-num{
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    color: #8b8b8b;
+}
+.sold-num span{
+    color: rgba(252, 146, 22, 0.9);
+}
+.discount-goods{
+    font-size: 12px;
+    padding-left: 5px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.surplusTime{
+    color: rgba(252, 146, 22, 0.9);
+    font-size: 12px;
+    padding-left: 5px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.discount-goods > div:first-of-type{
+    background-color: rgba(252, 146, 22, 0.9);
+    color: #fff;
+    padding: 0 8px;
+}
+
+.time-css{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0;
+}
+.swiper-pagination > span{
+    padding: 0;
+}
+
+.cart{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    z-index: 1000;
+    text-align: center;
+}
+.cart a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.cart-num {
+    background-color: #ff5000;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 16px;
+}

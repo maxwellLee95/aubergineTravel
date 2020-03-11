@@ -1,0 +1,141 @@
+.about-nav li {
+    border-bottom: 1px solid #ebeae8;
+}
+.activity-grade {
+    margin-top: 20px;
+}
+
+.grade-box {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.grade-box .box-title {
+    border-bottom: 1px solid #cccccc;
+}
+
+.grade-box .box-title span {
+    margin: 5px 10px;
+    display: block;
+}
+
+.grade-box .box-body {
+    padding: 5px 10px;
+}
+
+.grade-box .box-body .score {
+    font-size: 27px;
+    margin: 5px 10px;
+}
+
+.starts,.starts ul{margin: 0 auto; display: block;}
+.starts{margin: 10px auto;}
+
+#pingStar li {
+    border: 0px;
+    width: 20%;
+    height: 12px;
+    line-height: 12px;
+}
+#mstar li {
+    border: 0px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0 1px;
+}
+.starts ul li{
+    float: left;
+    width: 19px;
+    height: 20px;
+    padding: 1px;
+    cursor: pointer;
+    /*margin: 0 1px;*/
+    text-indent: -9999px;
+    /*background: url(/images/wechat/star_v1.gif) no-repeat;*/
+    /*background-size: 12px 36px;*/
+}
+/*.starts ul li.on{background-position: 0 -12.5px;}*/
+/*.starts ul li.half{background-position: 0 -24.5px;}*/
+.starts ul span{display:inline;float:left;padding-left:10px;height:31px;line-height:31px;}
+
+#score-level li {
+    border: 0px;
+    height: 24px;
+    width: 100%;
+    line-height: 20px;
+    padding: 0;
+    color: #8b8b8b;
+    font-size: 12px;
+}
+.bar {
+    background:#FCC800;
+    height: 4px;
+
+    margin-top: 9px;
+}
+.left {
+    border-radius: 3px 0 0 3px;
+}
+.right {
+    border-radius: 0 3px 3px 0;
+}
+.greybar{
+    background:#E9E9E9;
+}
+
+.row {margin: 0;}
+.row div {
+    padding: 0;
+}
+
+.activity-comment {
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+.comment-title {
+    /*border-bottom: 1px solid #cccccc;*/
+    padding: 5px 2px;
+}
+.comment-box {
+    padding: 5px 0 0px;
+}
+.comment-box .comment-body {
+    padding: 10px 0px 0px;
+    border-top: 1px solid #cccccc;
+}
+
+.comment-box .comment-body::first-child {
+    border:none;
+}
+
+.oh {
+    overflow: hidden;
+}
+.mhead {
+    width: 20%;
+    padding: 5px;
+}
+.mcomment{
+    width: 80%;
+    padding: 5px;
+}
+.comefrom {
+    margin-top: 10px;
+}
+.fz11 {
+    font-size: 11px;
+}
+.text-overflow{
+    display:block;/*内联对象需加*/
+    width:5em;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.hname {
+    margin-top: 5px;
+    width: 100%;
+}

@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 2015-4-21, 16:41:45
+    Author     : liuzhixing
+*/
+
+/* reset */
+html{font:14px/1.5 'microsoft yahei';-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,figure,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,textarea,select,code,kbd,pre,samp{font-size:14px}
+body {background-color: #ffffff; font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input,textarea{outline:none; font:14px/1.5 'microsoft yahei';}
+li{list-style:none}
+fieldset,img{border:none;}
+a{text-decoration:none;background:none}
+a:hover, a:focus{text-decoration:none; text-decoration: none;}
+a:visited {color: #000000; }
+em,i{font-style:normal}
+textarea {
+    -webkit-appearance: none;
+}
+.clearfix:before,.clearfix:after{content:" ";display:table}
+.clearfix:after{clear:both}
+.clear {clear: both;}
+.text-overflow{
+    display:block;/*内联对象需加*/
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+.sf { background-color: rgba(255, 55, 74, 0.9); overflow:hidden;}
+.sa { background-color: rgba(252, 146, 22, 0.9); overflow:hidden;}
+.sr { background-color: #9B8CE5; overflow:hidden;}

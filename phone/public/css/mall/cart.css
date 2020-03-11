@@ -1,0 +1,208 @@
+.content{
+    padding-bottom: 60px;
+}
+.shopping-list{
+    background-color: #fff;
+}
+.goods{
+    padding: 10px 10px 10px 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.goods-img{
+    width: 20%;
+    position: relative;
+}
+.goods-img img{
+    width: 100%;
+}
+.goods-info{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.goods-size{
+    font-size: 12px;
+    color: #888;
+}
+.goods-size .pull-right{
+    color: rgba(252, 146, 22, 0.9);
+}
+.goods-num{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.goods-num-btn{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 5px 10px;
+}
+.goods-num-btn i{
+    color: #333;
+}
+input[type="text"]{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.goods-num-btn.no-operation{
+    border-color: #cfcfcf;
+}
+.goods-num-btn.no-operation i{
+    color: #cfcfcf;
+}
+.goods-inventory{
+    font-size: 12px;
+    color: #888;
+}
+.goods-del{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.goods-del i{
+    font-size: 22px;
+    color: #ccc;
+}
+.goods-count{
+    padding-left: 10px;
+    color: #888;
+    font-size: 12px;
+}
+.goods-count span{
+    color: rgba(252, 146, 22, 0.9);
+    font-size: 12px;
+}
+.goods-discount{
+    font-size: 12px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+.surplusTime{
+    color: rgba(252, 146, 22, 0.9);
+    font-size: 12px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.goods-discount > div:first-of-type{
+    background-color: rgba(252, 146, 22, 0.9);
+    color: #fff;
+    padding: 0 8px;
+}
+.cart-checkbox{
+    position: absolute;
+    left: -40px;
+    top: 0;
+    width: 40px;
+    height: 100px;
+}
+.cart-show{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin: 145% auto;
+}
+.cart-show.select{
+    border-color: #9B8CE5;
+    background-color: #9B8CE5;
+}
+.cart-show.select i{
+    color: #fff;
+    font-size: 14px;
+    padding: 0 2px;
+}
+.goods-discount.isOverTime > div:first-of-type{
+    background-color: rgba(136,136,136,0.2);
+    color: #888;
+}
+.goods-discount.isOverTime .surplusTime{
+    color: #888;
+    text-decoration: line-through;
+}
+.down-goods{
+    color: #888;
+    text-decoration: line-through;
+    font-size: 12px;
+    padding-top: 10px;
+}
+/*底部按钮*/
+.bottom-btns{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    background-color: #fff;
+    padding: 5px;
+}
+.bottom-btns > div{
+    float: left;
+}
+.all-choice{
+    height: 42px;
+    position: relative;
+}
+.all-checkbox{
+    height: 42px;
+    padding-left: 10px;
+}
+.all-checkbox .cart-show{
+    margin: 11px 0;
+}
+.all-checkbox-label{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 5px;
+    padding-bottom: 0;
+}
+.bottom-btn a{
+    display: inline-block;
+    background-color: #9B8CE5;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.money-count{
+    padding-right: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.money-count > div > span{
+    font-size: 12px;
+}
+.bottom-btn a.can-not-pay{
+    background-color: #888;
+}
+
+/*loading无背景小样式*/
+.small-loading{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: 1000;
+    left: -10px;
+    top: -10px;
+    padding-left: 50%;
+    padding-top: 80%;
+    display: none;
+}
+
+.no-cart {
+    background-color: #f0f0f0;
+    padding: 150px 0 ;
+}

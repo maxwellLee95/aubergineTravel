@@ -1,0 +1,484 @@
+.loading{
+    position: fixed;
+}
+.content{
+    padding-bottom: 60px;
+}
+/*头部商品轮播*/
+.goods-banners{
+    border-bottom: 1px solid #e5e5e5;
+}
+.swiper-pagination-bullet{
+    width: 6px;
+    height: 6px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 3px;
+}
+.swiper-pagination-bullet-active{
+    background-color: #9B8CE5;
+}
+/*头部商品信息*/
+.goods-top{
+    background-color: #fff;
+    border-bottom: 15px solid #e5e5e5;
+}
+.goods-info{
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.goods-name{
+    font-size: 16px;
+}
+.goods-desc{
+    font-size: 13px;
+    color: #888;
+}
+.goods-money{
+    height: 30px;
+    line-height: 30px;
+}
+.goods-money span{
+    color: rgba(252, 146, 22, 0.9);
+    font-size: 30px;
+}
+.goods-old-money, .sold-num{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #888;
+}
+.sold-num span{
+    color: rgba(252, 146, 22, 0.9);
+}
+.goods-old-money{
+    text-decoration: line-through;
+}
+.goods-postage{
+    color: #888;
+}
+.goods-discount{
+    font-size: 12px;
+    padding-left: 5px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px;
+}
+.surplusTime{
+    color: rgba(252, 146, 22, 0.9);
+    font-size: 12px;
+    padding-left: 5px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.goods-discount > div:first-of-type{
+    background-color: rgba(252, 146, 22, 0.9);
+    color: #fff;
+    padding: 0 8px;
+}
+/*商品相关选项*/
+.goods-form{
+    padding: 10px 0;
+    background-color: #fff;
+    margin-top: 10px;
+    /*border-top: 1px solid #e5e5e5;*/
+    border-bottom: 1px solid #e5e5e5;
+}
+.goods-choice-name{
+    font-size: 16px;
+    padding: 0 10px 10px 10px;
+}
+.goods-choice-option-div{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.goods-choice-option{
+    border: 1px solid #ccc;
+    padding: 5px 0;
+    margin: 0 10px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+.goods-choice-option.no-inventory{
+    background-color: #f6f5fa;
+    color: #e5e5e5;
+    border-color: #e5e5e5;
+}
+.goods-choice-option.selected{
+    border-color: #9B8CE5;
+    color: #9B8CE5;
+}
+.choice-selected{
+    background-color: #9B8CE5;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    right: -13px;
+    bottom: -13px;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+}
+.choice-selected-i{
+    color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+    font-size: 11px;
+}
+.goods-choice-input{
+    padding: 0 10px;
+}
+.goods-num-btn{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 5px 10px;
+}
+.goods-num-btn i{
+    color: #333;
+}
+#payNum{
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.goods-inventory{
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    color: #888;
+}
+.goods-num-btn.no-operation{
+    border-color: #cfcfcf;
+}
+.goods-num-btn.no-operation i{
+    color: #cfcfcf;
+}
+/*底部按钮*/
+.bottom-btns{
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #e5e5e5;
+}
+.bottom-btn{
+    height: 43px;
+    line-height: 43px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.bottom-btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+    /*font-weight: bold;*/
+    font-size: 16px;
+}
+.bottom-btn img{
+    height: 50%;
+}
+.cart-num{
+    position: absolute;
+    right: 20%;
+    top: 4px;
+    background-color: #ff5000;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: normal;
+}
+.move-add{
+    position: absolute;
+    left: 0;
+    top: -40px;
+    width: 20%;
+    text-align: center;
+    color: #ff5000;
+    font-weight: bold;
+    font-size: 24px;
+    display: none;
+}
+/*内容*/
+.good-content{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.tab-content{
+    width: 100%;
+    padding: 10px;
+    display: none;
+    overflow: hidden;
+}
+.tab-content.active{
+    display: inherit;
+}
+#event-tab{
+    margin: 10px 0 26px 0;
+}
+.tab-title{
+    background: #fff;
+    position: relative;
+}
+.tab-title span{
+    display: inline-block;
+    /*width: 49%;*/
+    text-align: center;
+}
+.border-right{
+    /*border-right: 1px solid #ddd;*/
+}
+.tab-title{
+    padding:10px 0;
+    border-bottom: 1px dotted #ddd;
+    width: 100%;
+}
+.tab-title span a{
+    color: #000;
+    font-size: 14px;
+}
+.btnA{
+    border: 0;
+    background: #fff;
+    outline：none;
+}
+.tab-title .isThisTab button{
+    color: #9B8CE5;
+    /*border-bottom: 1px solid #9B8CE5;*/
+    /*padding:2px 5px;*/
+}
+.tab-t{
+    position: relative;
+}
+.unline-show{
+    position: absolute;
+    bottom: -11px;
+    left: 20%;
+    width: 60%;
+    height: 1px;
+    background-color: #9B8CE5;
+    z-index: 1;
+}
+.fixed-tab-title{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.tab-content img, .tab-content table{
+    max-width: 100%;
+}
+
+/*loading无背景小样式*/
+.small-loading{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    z-index: 1000;
+    left: -10px;
+    top: -10px;
+    padding-left: 50%;
+    padding-top: 80%;
+    display: none;
+}
+
+/*评论页面排版*/
+.comment-container{
+}
+.comment-content{
+    width: 100%;
+    height: 7vw;
+}
+.comment-start-img{
+    width: 15px;
+    height:15px;
+    margin-right: 2%;
+}
+.comment-start-img-div{
+    width: 18px;
+    height:18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 2%;
+}
+.comment-div{
+    width: 70%;
+}
+.comment-text{
+    font-size: 14px;
+    color: #000;
+    margin-top: 3px;
+    width: 14%;
+}
+.hide-line{
+    opacity: 0;
+}
+.comment-percent{
+    font-size: 16px;
+    color: #e8822e;
+}
+.comment-count{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-left: 0.5%;
+}
+.comment-btn{
+    border:1px solid #e5e5e5;
+    padding: 1% 2.5%;
+    margin-right: 2%;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.comment-score{
+    width: 70%;
+}
+.comment-start{
+    width: 50%;
+}
+/*评论者的信息*/
+.comment-hiker-comtainer{}
+.hiker-img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-image: url("/public/images/wechat/2.pic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #dfdfdf;
+}
+.hiker-name{
+    font-size: 14px;
+    color:#333333;
+    margin-left: 2.5vw;
+}
+.comment-hiker-content{
+    width: 100%;
+    padding: 2% 3%;
+    position: relative;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    border-top: 1px solid #dfdfdf;
+}
+.comment-select{
+    color: #fff;
+    border-color: #fb7c1f;
+    background-color: #fb7c1f;
+    border-radius: 4px;
+}
+.mall-comment{
+    /*height:8vw;*/
+    padding: 2% 2%;
+    background-color:#f9f9f9;
+    margin-top:5%;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #666666;
+    text-indent: 3vw;
+}
+.mall-text{
+    color: #e8822e;
+}
+/*评论的时间*/
+.comment-time{
+    width: 100%;
+    height: 10vw;
+}
+.comment-time-info{
+    font-size: 14px;
+    color: #999999;
+    margin-top: 2%;
+}
+.comment-time-start{
+    margin-left: 2%;
+    margin-top: -1%;
+}
+.comment-time-start-img{
+    width: 15px;
+    height: 15px;
+}
+.product-text{
+    font-size: 12px;
+    margin-left: 2%;
+}
+/*用户上传的图片*/
+.hiker-upload-img-container{
+    width: 100%;
+}
+.hiker-upload-img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 2px;
+    margin-right: 2%;
+    margin-top: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*展示商品的信息*/
+.comment-product-info{
+    margin-top: 2%;
+    color: #999;
+    font-size: 12px;
+    height: 7vw;
+}
+.comment-top-container{
+    padding: 3% 3%;
+}
+.hiker-info-div{
+    position: relative;
+}
+.hiker-info-one{
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+}
+
+/*查看更多的显示*/
+.more-than{
+    width: 100%;
+    height: 5vw;
+    color: #9B8CE5;
+    font-size: 14px;
+    padding:6% 0;
+}
+.more-than-div{
+    width: 3%;
+    margin-top: -1%;
+    margin-left: 0.5%;
+}
+.more-than-img{
+    width: 100%;
+}
+
+.hiker-info-num{
+    color: #fff;
+    background-color: #ff6666;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 0.6rem;
+    padding: 0px 8px;
+    top: 0px;
+    right: -7px;
+}

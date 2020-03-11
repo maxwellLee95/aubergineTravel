@@ -1,0 +1,321 @@
+.content {
+    padding-bottom: 0;
+}
+/*头部banner样式*/
+.my-header {
+    position: relative;
+    background: #fff;
+    height:auto;
+    min-height: 180px;
+}
+.my-banner {
+    width: 100%;
+    height: 150px;
+    background: url('./images/wechat/my/banner.jpg') no-repeat;
+    background-size:100% 100%;
+}
+.my-cards{
+    background: none;
+    position: absolute;
+    left: 1px;
+    top: 10px;
+    z-index: 100;
+}
+.my-set-up{
+    background: none;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    z-index: 100;
+}
+.user-content {
+    padding: 35px 0 0 0;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+.user-avatar {
+    top: 65px;
+    bottom: 100px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.bg{
+    background-color: rgba(000,000,000,0.45);
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    left: 50%;
+    margin: -3px 0 0 -56px;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 56px;
+    clip: rect(0px,112px,112px, 56px);
+}
+.bg2{
+    background-color:#fff;
+    width:112px;
+    height:112px;
+    position:absolute;
+    border-radius: 56px;
+    -moz-border-radius: 56px;
+    -webkit-border-radius: 56px;
+    clip:rect(0px,112px,112px, 56px);
+    transform:rotate(-180deg);
+    -webkit-transform:rotate(-180deg);
+}
+.bg3{
+    background-color:rgba(000,000,000,0.45);
+    width:112px;
+    height:112px;
+    position:absolute;
+    left: 50%;
+    margin: -3px 0 0 -56px ;
+    border-radius: 56px;
+    -moz-border-radius: 56px;
+    -webkit-border-radius: 56px;
+    clip:rect(0,56px,112px,0px);
+}
+.bg4{
+    background-color:#fff;
+    width:112px;
+    height:112px;
+    position:absolute;
+    border-radius: 56px;
+    -moz-border-radius: 56px;
+    -webkit-border-radius: 56px;
+    clip:rect(0,56px,112px,0px);
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+}
+#photo{
+    left: 50%;
+    margin-left: -50px;
+    position: relative;
+    width: 56px;
+    z-index: +1;
+    top: 3px;
+}
+.my-center-head-name {
+    margin: 10px 0 0 0;
+    font-size: 15px;
+}
+.s {
+    padding: 0px 5px;
+    color: #DDDDDD;
+}
+.username-p{
+    color: #abafb2;
+}
+.user-score{
+    /*background: rgba(0,0,0,0.5);*/
+    padding: 1px 20px 2px 20px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+/*头部banner样式 结束*/
+/*头部标题样式*/
+.my-title{
+    background: #fff;
+    width: 100%;
+    height: 230px;
+}
+.my-title li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin: 10px 0;
+    border-right: 1px solid #d9d9d9;
+}
+.my-title li:last-of-type{
+    width: 33.4%;
+    border-right: 0;
+}
+.my-title-img img{
+    width: 22px;
+}
+/*头部标题样式 结束*/
+/*tab样式*/
+.my-order{
+    margin: 10px 0 0 0;
+    position: relative;
+}
+.tab-title{
+    background: #fff;
+    width: 100%;
+    padding: 0;
+}
+.tab-title li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.tab-title li button{
+    border: 0;
+    background: #fff;
+    font-size: 14px;
+    color: #787878;
+}
+.tab-title .isThisTab{
+    border-bottom: 1px solid #9B8CE5;
+}
+.tab-title .isThisTab button{
+    color: #9B8CE5;
+}
+/*tab样式 结束*/
+/*订单内容样式*/
+.swiper-container{
+    display: inline-block;
+    width: 100%;
+}
+.my-pay-order li{
+    width: 100%;
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.order-msg-top{
+    padding: 10px 0;
+    /*border-bottom: 1px solid #d9d9d9;*/
+}
+.activity-img{
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+}
+.activity-img img{
+    width: 100%;
+}
+.activity-name{
+    font-size: 14px;
+}
+.activity-info{
+    width: 75%;
+    padding-left: 4px;
+}
+.activity-msg{
+    font-size: 13px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+.is-team-activity{
+    font-size: 11px;
+    background: #ff5000;
+    color: #fff;
+    display: inline;
+    padding: 0 4px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+.isnot-team-activity{
+    font-size: 11px;
+    color: #fff;
+    display: inline;
+    padding: 0 4px;
+    margin-left: 8px;
+    margin-top: 4px;
+    min-width: 52px;
+    text-align: center;
+}
+.se { background-color: rgba(138, 138, 138, 0.9); overflow:hidden;}
+.su { background-color: rgba(138, 138, 138, 0.9); overflow:hidden;}
+.sf { background-color: rgba(252, 146, 22, 0.9); overflow:hidden;}
+.ss { background-color: rgba(72, 203, 132, 0.9); overflow:hidden;}
+.si { background-color: rgba(193, 76, 251, 0.9); overflow:hidden;}
+.order-msg-bottom{
+    padding: 10px 0;
+}
+.order-msg-bottom a:hover {
+    color: #9B8CE5;
+}
+.order-msg-bottom .pull-left{
+    width: 40%;
+    text-align: left;
+    height: 34px;
+    line-height: 34px;
+    color: #272727;
+    font-size: 16px;
+}
+.order-msg-bottom .pull-left span{
+    font-size: 14px;
+}
+.order-msg-bottom .pull-right{
+    /*width: 60%;*/
+    text-align: right;
+    color: #272727;
+}
+.order-msg-bottom .pull-right a:last-of-type{
+    margin-right: 0;
+}
+.order-btn{
+    background: transparent;
+    border: 1px solid #9B8CE5;
+    color: #9B8CE5;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-size: 13px;
+}
+/*订单内容样式 结束*/
+/*重置loading层样式*/
+.loading{
+    width: 100px;
+    top: 45%;
+}
+
+.no-order{
+    text-align: center;
+    padding: 10px;
+    color: #c4c4c4;
+    padding-top: 10%;
+}
+.no-order div:last-of-type{
+    padding-top: 20px;
+}
+
+/*去掉A连接的样式*/
+.order-btn:active,.order-btn:visited,.order-btn:hover{
+    color: #9B8CE5;
+}
+a:active,a:visited,a:hover{
+    color: #3a3a3a;
+}
+
+.swiper-tab-content{
+    position: relative;
+    bottom: -1000px;
+}
+
+.subs-and-fans {
+    font-size: 16px;
+    width: 60%;
+    background: #efefef;
+    border-radius: 10px;
+    margin: 0 auto;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.subs-and-fans>a {
+    font-size: 14px;
+    display: inline-block;
+    color: #c3c3c3;
+}
+
+.subs-and-fans>a>span:not(:last-child) {
+    padding-right: 30px;
+}
+
+
+.username-shadow {
+    /*text-shadow: 1px 1px 2px #bbb;*/
+}

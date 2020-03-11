@@ -1,0 +1,59 @@
+.new-index-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+.new-index-nav > a {
+    width: 20%;
+    height: 50px;
+    line-height: 20px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.new-index-nav > a.checked {
+    color: rgba(163,148,243, 0.9);
+}
+
+.tab-notice {
+    position: fixed;
+    left: 40%;
+    bottom: 0;
+    z-index: 3000;
+    width: 20%;
+    opacity: 0;
+}
+
+.show-tab-notice {
+    animation: showTabNotice 500ms linear forwards;
+    -webkit-animation: showTabNotice 500ms linear forwards;
+}
+
+@keyframes showTabNotice {
+    0% {
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 48px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes showTabNotice {
+    0% {
+        bottom: 0px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 48px;
+        opacity: 1;
+    }
+}

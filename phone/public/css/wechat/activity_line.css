@@ -1,0 +1,305 @@
+.line-top,.line-related{
+    margin-bottom: 10px;
+    background: #fff;
+}
+.line-img img{
+    width: 100%;
+}
+.line-title{
+    padding: 10px 5px;
+    color: #000;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+    height: 46px;
+    line-height: 26px;
+}
+.line-title .pull-right{
+    color: #9B8CE5;
+}
+.line-about{
+    padding: 0 10px 12px 10px;
+}
+.line-msg{
+    padding-top: 12px;
+    color: #808080;
+}
+.line-msg:last-of-type{
+    border-bottom: 0;
+}
+.line-related{
+    padding: 0 5px;
+}
+.line-sub-title{
+    color: rgba( 39,39,39, 0.67 );
+    font-size: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.line-sub-title .pull-right{
+    font-size: 14px;
+}
+.related-ul li{
+    width: 33.3%;
+    float: left;
+    padding: 10px 5px;
+}
+.related-ul li a{
+    border: 1px solid #d6d6d6;
+    display: inline-block;
+    color: rgba( 39,39,39, 0.67 );
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.evaluation-num {
+    background: #ff5000 none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 9px;
+    height: 13px;
+    left: 75%;
+    line-height: 13px;
+    padding: 0 6px;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+}
+.bottom-btn-div{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.bottom-btn{
+    display: inline-block;
+    color: #fff;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    border-top: 2px solid #f0f0f0;
+    background: #9B8CE5;
+    border-radius: 30px;
+}
+.bottom-btn:hover,.bottom-btn:active,.bottom-btn:focus{
+    color: #fff;
+}
+.box-content{
+    padding: 10px 0;
+}
+
+.home_a{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+}
+.home_a img{
+    width: 30px;
+}
+
+.daysche-title {
+    margin-top: 10px;
+    background-color: #fb6658;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px;
+}
+.daysche-title-so {
+    margin: 0 auto;
+    width:0px;height:0px;
+    border-top:10px solid #fb6658;
+    border-left:10px solid transparent;
+    border-bottom:10px solid transparent;
+    border-right:10px solid transparent;
+}
+.daysche{
+    position: relative;
+}
+.daysche .pull-left{
+    width: 20%;
+}
+.daysche .pull-right{
+    width: 80%;
+    padding-left: 20px;
+    color: #333;
+    padding-top: 10px;
+    border-left: 1px solid #fb6658;
+    min-height: 48px;
+}
+.daysche-point{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fb6658;
+    position: absolute;
+    left: 18.7%;
+    top: 16px;
+}
+#box-cost ol {
+    margin-left: 18px;
+}
+#box-cost ol li {
+    border: medium none;
+    height: auto;
+    padding: 0;
+}
+.box-forin {
+    color: #868989;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.box-content img{
+    max-width: 100%;
+}
+
+/*活动时间选择样式*/
+.choice-time{
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 45px;
+    width: 100%;
+    display: none;
+    z-index: 1000;
+}
+.choice-time-input{
+    border-bottom: 1px solid #e9e8e8;
+    padding: 0 10px;
+}
+.choice-time-input .pull-left{
+    font-size: 14px;
+    padding: 10px 0;
+    width: 43%;
+    font-weight: inherit;
+}
+.choice-time-input .pull-right{
+    width: 57%;
+    position: relative;
+}
+#startDate{
+    width: 100%;
+    height: 46px;
+    text-align: right;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #8b8b8b;
+    position: absolute;
+    z-index: 101;
+    opacity: 0;
+}
+.choice-time-info{
+    padding-left: 20px;
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #e9e8e8;
+}
+#showStartDate{
+    text-align: right;
+    height: 46px;
+    line-height: 46px;
+    color: #8b8b8b;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+.choice-time-result{
+    display: none;
+}
+.choice-time-close{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    line-height: 46px;
+}
+.choice-time-close i{
+    font-size: 18px;
+}
+#dateshadow{
+    position: fixed;
+}
+#datePage{
+    position: fixed;
+}
+.choice-time-bg{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: none;
+}
+.loading{
+    position: fixed;
+}
+
+/*发起活动弹窗 备份样式*/
+/*.build-activity-label{
+    height: 44px;
+    line-height: 44px;
+    margin: 0;
+}
+.build-activity-input{
+    min-width: 63%;
+    margin: 5px 0 5px 10px;
+}
+#pop-layer-center input[type="text"]{
+    margin: 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.build-activity-content{
+    padding: 5px 0;
+}
+.build-activity-notice{
+    font-size: 12px;
+}
+#intentionLeaderHikerIdLabel{
+    position: absolute;
+    right: 0;
+    z-index: 101;
+    width: 100%;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #ccc;
+}
+#intentionLeaderHikerId{
+    position: absolute;
+    right: 0;
+    z-index: 102;
+    opacity: 0;
+}
+#startTime::-webkit-input-placeholder{
+    color: #ccc;
+}
+#startTime:-moz-placeholder{
+    color: #ccc;
+}
+#startTime::-moz-placeholder{
+    color: #ccc;
+}
+#startTime:-ms-input-placeholder{
+    color: #ccc;
+}
+#dateshadow{
+    z-index: 10001;
+}*/

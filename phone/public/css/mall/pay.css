@@ -1,0 +1,264 @@
+.content{
+    padding-bottom: 60px;
+}
+/*商品信息*/
+.div-title{
+    color: #9B8CE5;
+    font-size: 16px;
+    padding: 10px;
+}
+.goods-list{
+    background-color: #fff;
+}
+.goods{
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 12px;
+}
+.goods:last-of-type{
+    border-bottom: 0;
+}
+.goods-img{
+    width: 100%;
+}
+.goods-img img{
+    width: 100%;
+}
+.goods-info{
+    padding-left: 10px;
+}
+.goods-size{
+    font-size: 12px;
+    color: #888;
+}
+.goods-size .pull-right span{
+    color: #ff3500;
+    font-size: 12px;
+}
+/*取货方式*/
+.address, .our-address{
+    border-bottom: 1px solid #e9e9e9;
+    background-color: #fff;
+    padding: 10px 30px;
+    position: relative;
+}
+.address-icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.address-edit{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.remark, .telephone{
+    background-color: #fff;
+    padding: 10px;
+}
+.telephone{
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+input[type="text"]{
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+}
+.notReal-tip{
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    padding: 10px;
+}
+/*底部按钮*/
+.bottom-btns{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+}
+.bottom-btn a{
+    display: inline-block;
+    background-color: #9B8CE5;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.money-count{
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 42px;
+}
+.money-count > div span{
+    font-size: 18px;
+    font-weight: bold;
+}
+/*单选样式*/
+.input-radios{
+    background-color: #fff;
+}
+.input-radio{
+    padding: 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.radio-show{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+}
+.radio-show.checked{
+    border-color: #9B8CE5;
+    background-color: #9B8CE5;
+}
+.radio-show.checked i{
+    color: #fff;
+    padding: 3px 2px;
+}
+.radio-show.checked .circle-i{
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+}
+/*多选样式*/
+.input-checkbox{
+    padding: 10px;
+    border-bottom: 1px solid #e9e9e9;
+    background-color: #fff;
+    margin-top: 5px;
+}
+.checkbox-show{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: relative;
+}
+.checkbox-show.checked{
+    border-color: #9B8CE5;
+    background-color: #9B8CE5;
+}
+.checkbox-show.checked i{
+    color: #fff;
+    padding: 3px 2px;
+}
+/*收货地址编辑列表*/
+.hidden-title{
+    padding: 10px;
+    color: #9B8CE5;
+    font-size: 16px;
+}
+.hidden-title button{
+    font-size: 14px;
+    color: #fff;
+    background-color: #9B8CE5;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    padding: 2px 15px;
+    border-radius: 4px;
+}
+.address-list{
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 10px;
+}
+.address-main{
+    padding-right: 20px;
+    position: relative;
+}
+.address-edit-btn{
+    border-top: 1px solid #e9e9e9;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.address-edit-btn button{
+    color: #9B8CE5;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+.address-edit-btn button.isDefault{
+    color: #666;
+}
+.address-list-icon{
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 30px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+}
+/*收货地址编辑表单*/
+.form-div{
+    height: 42px;
+    line-height: 42px;
+    background-color: #fff;
+    padding: 0 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.noAddress{
+    color: #888;
+}
+
+.form-input.error{
+    border: 1px solid #FF6633;
+}
+
+.canUseScore{
+    color: #9B8CE5;
+}
+.useScore{
+    position: relative;
+}
+.score-input{
+    border: 1px solid #e4e4e4;
+    margin: 10px 0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+#pop-layer-center input[type="text"]{
+    border: 0;
+    margin: 0;
+    height: 40px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: #353535;
+}
+#show-error{
+    color: #ff5000;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+}

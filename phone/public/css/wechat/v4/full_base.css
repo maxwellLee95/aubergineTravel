@@ -1,0 +1,105 @@
+/* topBar */
+.topBar { position: relative; height: 40px; line-height: 40px; background-color: #FAFAFA;}
+.topBar .back {float: left; padding-left: 10px; position: absolute; z-index: 2;}
+.topBar img {width: 16px; height: 16px; vertical-align: center;}
+.topBar .home {float: right; padding-right: 10px; position: absolute; z-index: 2; right: 0;}
+.topBar p { text-align: center;font-size: 16px; font-weight: 120; color: #000; position: absolute; width: 100%; margin:0;}
+
+/*index-nav*/
+.index-nav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e7e7e7;
+}
+.index-nav > a{
+    display: inline-block;
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 49px;
+    line-height: 30px;
+    position: relative;
+}
+.index-nav > a > img{
+    height: 18px;
+    /*height: 24px;*/
+}
+.index-nav > a > p{
+    font-size: 12px;
+    margin: 0;
+    height: 18px;
+    line-height: 16px;
+}
+.index-nav > a.checked{
+    color: rgba(72, 203, 132, 0.9);
+    /*color: #ff5501;*/
+}
+
+/*单页共有样式表在这里添加*/
+a, a:hover, a:active, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+a[data-btnloading], div[data-btnloading]{
+    background-color: #888 !important;
+}
+body{
+    color: #333;
+    background-color: #f8f8f8;
+    font-size: 14px;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+html, body, div{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.normal{
+    color: #333;
+}
+.grey{
+    color: #888;
+}
+.green{
+    color: #9B8CE5;
+}
+.ft-12{
+    font-size: 12px;
+}
+.ft-14{
+    font-size: 14px;
+}
+.ft-16{
+    font-size: 16px;
+}
+.ft-18{
+    font-size: 18px;
+}
+
+.dot {
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 34%;
+    top: 8%
+}
