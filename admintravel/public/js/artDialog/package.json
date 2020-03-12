@@ -14,7 +14,7 @@
     },
     "main": "./src/dialog.js",
     "dependencies": {
-        "jquery": "~1.9.0"
+        "jquery": "~3.4.1"
     },
     "license": "LGPL"
 }
